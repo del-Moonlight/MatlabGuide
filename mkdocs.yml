@@ -1,5 +1,11 @@
 site_name: My Awesome Docs
 theme:
   name: 'material'   # Material 主题似乎勉强能看
+
+  nav:
+  - Home: index.md
+  - First Things First: First things first.md
+  - Compendium: compendium.md
+
 extra_javascript:
   - 'https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js'
