@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# 欢迎来到我的文档！
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<script>
+  L2Dwidget.init({
+    dialog: { enable: true },
+    mobile: true,
+    display: { position: "right", width: 150, height: 300 },
+    model: { jsonPath: "https://unpkg.com/live2d-widget-model-haru@1.0.5/assets/haru01.model.json" },
+  });
+</script>
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+这里是一些内容，欢迎查看！
