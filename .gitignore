@@ -1,1 +1,9 @@
 myenv/
+
+site/
+
+pyvenv.cfg
+.env/
+venv/
+
+.cache/
