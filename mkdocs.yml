@@ -1,10 +1,10 @@
-site_name: My Awesome Docs
+site_name: Some Matlab Notes
 theme:
   name: 'material'   # Material 主题似乎勉强能看
 
   nav:
   - Home: index.md
-  - First Things First: First things first.md
+  - First things first: First things first.md
   - Compendium: compendium.md
 
 extra_javascript:

@@ -1,8 +1,11 @@
-# First things first
+# 欢迎来到我的文档！
 
-此文写给`L`先生，我知道可能唯一的读者也是`L`，但是仍然想践行 ~~我会把说过的话一一变为现实~~送礼物的心意。  
+<script>
+window.addEventListener('load', function() {
+  L2Dwidget.init({
+    model: { jsonPath: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json' }
+  });
+});
+</script>
 
-## 仅以此文纪念我们相识的这段时间，那是很惬意的365天。
-
-## Go on , my little angel
-
+这里是一些内容，欢迎查看！
