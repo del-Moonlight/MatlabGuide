@@ -1,0 +1,546 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../First%20things%20first/">
+      
+      
+        <link rel="next" href="../compendium/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>前言 - Some Matlab Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Some Matlab Notes" class="md-header__button md-logo" aria-label="Some Matlab Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Some Matlab Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              前言
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Some Matlab Notes" class="md-nav__button md-logo" aria-label="Some Matlab Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Some Matlab Notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First things first
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../First%20things%20first/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    欢迎来到我的文档！
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    前言
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    前言
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      对MATLAB的简单介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matlab_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      如何获取MATLAB的使用权
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      一些注意事项
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      一些学习资源
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compendium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MATLAB环境工程入门指南
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      对MATLAB的简单介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matlab_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      如何获取MATLAB的使用权
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      一些注意事项
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      一些学习资源
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">前言</h1>
+<h2 id="matlab">对MATLAB的简单介绍</h2>
+<p>援引维基百科的<a href="https://zh.wikipedia.org/wiki/MATLAB">科普</a></p>
+<blockquote>
+<p><strong>MATLAB</strong>（Matrix Laboratory，<strong>矩阵实验室</strong>）是由<a href="https://zh.wikipedia.org/wiki/美国">美国</a><a href="https://zh.wikipedia.org/wiki/The_MathWorks">The MathWorks</a>公司出品的商业<a href="https://zh.wikipedia.org/wiki/数学软件">数学软件</a>。MATLAB是一种用于算法开发、数据可视化、数据分析以及数值计算的高级技术计算语言和交互式环境。  </p>
+</blockquote>
+<p>它的历史等等我就不多做赘述了，感兴趣的朋友可以自行查阅。MATLAB主要用于数值计算~~（但是想想都觉得内存这么大仅用作计算器很离谱吧）~~，但除了独具特色的<strong>矩阵运算</strong>，它还拥有大量功能强大的附加工具箱，适合不同领域的应用，例如控制系统设计与分析、影像处理、深度学习、信号处理与通讯、金融建模和分析等。<br />
+R2017b后的MATLAB版本加入了人工智能领域深度学习的工具，虽然业内更广泛流行使用Python学习相关内容，但MATLAB在建模和工程计算中效率更高，许多功能函数都带有算法的自适应能力，且算法先进。<br />
+对于一种语言来说，无论功能多么强大，如果学习起来非常艰辛，那都算不上成功。而MATLAB 是成功的，它允许用户以数学形式的语言编写程序，与C语言有相似之处，但更接近于书写计算公式。相信朋友们大学里都或多或少接触过C语言这门编程语言，负责任的说，MATLAB比C语言易上手，所以大家不要有太多压力，相信带着<strong>使用工具</strong>的学习理念开始观看本指南，会有更多自信，毕竟学习目的就是会用即可，不必<code>精通</code>。  </p>
+<h2 id="matlab_1">如何获取MATLAB的使用权</h2>
+<p>由于MATLAB是一款<strong>商用软件</strong>，这就意味着通常需要购买才能使用这款软件（并非小数目！）。不过，大家依然可以通过以下几个方式免费使用MATLAB：  </p>
+<ul>
+<li>
+<p>MATLAB和许多高校有合作，提供校园身份可以申请免费使用MATLAB用于学习和科研</p>
+</li>
+<li>
+<p>国内的部分高校有购买MATLAB的校园区域使用权，你已经交了学费为什么不白嫖学校的MATLAB令牌？~~非要自己掏钱买的话只好替
+你学校翻一下白眼了~~</p>
+</li>
+<li>
+<p>MATLAB还赞助许多竞赛（数模就曾经被赞助过），可以在参赛流程期间申请免费使用相关产品</p>
+</li>
+<li>
+<p>如果以上方案都行不通，可以在<a href="https://www.mathworks.com/products/matlab.html">MATLAB官网</a>注册账号后开始<code>30天</code>的
+免费试用，以及每月有一定额度的MATLAB在线版</p>
+</li>
+<li>
+<p>虽然说支持正版，但是MathWorks自己都对全球肆虐的破解版软件睁一只眼闭一只眼。👉👈破解版资源大家应该都会找吧，这要是不会我就写出来流程（）</p>
+</li>
+<li>
+<p><strong>大悲剧</strong>：如果你的学校在MathWorks公司的制裁名单上，那么似乎学习用途的MATLAB只好用破解版了。但是最好不要用作学术成果展示的方式（MathWorks公司爱打官司），建议跑路去Python或开源的<a href="https://octave.org/">GNU Octave</a>（语法与MATLAB基本兼容），这个MATLAB不用也罢</p>
+</li>
+</ul>
+<h2 id="_2">一些注意事项</h2>
+<ul>
+<li>
+<p>因为笔者也正在学习使用MATLAB，且此指北的第一版主要写与<code>L</code>先生当作闲暇读物，故而主要围绕数据可视化与数学建模展开。本指南的第一部分将带你从地球环境问题出发，最终成为能够解决火星基地环境挑战的MATLAB高手，往后还会有不同学科的续写，以及对已有内容的增删补改。因为是匆匆十天的仓促产物，不准确不正确的部分相当可能存在，还望不吝指出。</p>
+</li>
+<li>
+<p>本指南中涉及的案例数据都尽可能取自官方数据，并且会在各个案例中附带原始数据的出处，可能会有令人望而生畏的引用格式，但是请放心，相信你强大的学习能力能够游刃有余地处理这些被你赋予意义的数据（是的，这些数据正是被你可视化展现才拥有了有秩序的意义）</p>
+</li>
+<li>
+<p>~~与其说是指南，倒不如说是拙劣的指北，~~笔者选择的专业是CS，所以选择用计算机行业的代码库<code>github</code>存放网页的文本内容以及部分源码。这里确实是计算机领域学习的宝地，但是笔者无意捧高它，依然欢迎任何人在我此项目仓库的<code>Issues</code>界面提出你认为有必要的问题和指正，笔者会一一处理。如果你想对本仓库做出贡献，当然可以fork到本地做出修改，修改好后随时可以向我发出合并申请！(●'◡'●)</p>
+</li>
+</ul>
+<h2 id="_3">一些学习资源</h2>
+<ul>
+<li>学习某种语言或工具当然首选参考资料是<a href="https://www.mathworks.com/help/matlab/getting-started-with-matlab.html">官方文档 </a>，不过就像不建议汉语学习者查看字典来学习一样，官方文档是专业而准确的，但是缺少一定的实践性（大约可以这么说吧）</li>
+<li>推荐两个github仓库：一个是<a href="https://github.com/uhub/awesome-matlab">awesome-matlab</a>，这里汇集了大量MATLAB学习资源清单；另一个就是<a href="https://github.com/zhanwen/MathModel">MathModel</a>，这里汇总了数模比赛的本科生组和研究生组的获奖作品，非常适合参考学习</li>
+<li>这里是高同学的个人<a href="https://gsy00517.github.io/tags/matlab/">博客</a>，其中记录了几种MATLAB常见抽风问题的解决方案（打开可能会有点慢，因为这个网页有大量需要加载的动效，性能优化不是很完善）</li>
+<li>很多人入门MATLAB会选择的经典读物<a href="https://share.weiyun.com/RHzQAVvy">《MATLAB2018从入门到精通》</a>的PDF版，前几页是抽象图片的纯扫描，从目录开始就是电子稿，可以有选择性地攻读自己想要掌握的部分章节</li>
+</ul>
+<p><strong>本指南使用R2017a及以后的MATLAB版本即可跟随练习，笔者目前正在使用的是R2024a版本。</strong>  </p>
+<p><strong>最好提前安装Mapping Toolbox工具箱，相当一部分案例会使用这个环境工程工具箱。</strong>  </p>
+<p><strong>不要在开始前退缩，其实你只需要<em>高中水平</em>的数学基础</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+      
+    
+  </body>
+</html>
