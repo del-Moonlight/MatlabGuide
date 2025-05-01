@@ -12,7 +12,7 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="../Foreword/">
+        <link rel="next" href="../Chapter_2/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,11 +20,14 @@
     
     
       
-        <title>Chapter 1 MATLAB基础：环境工程计算入门 - Some Matlab Notes</title>
+        <title>Chapter 1 MATLAB基础：工程计算入门 - Some Matlab Notes</title>
       
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -53,7 +56,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -98,12 +108,38 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Chapter 1 MATLAB基础：环境工程计算入门
+              Chapter 1 MATLAB基础：工程计算入门
             
           </span>
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -151,6 +187,18 @@
       
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/del-Moonlight/MatlabGuide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    del-Moonlight/MatlabGuide
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -184,6 +232,18 @@
     </a>
     Some Matlab Notes
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/del-Moonlight/MatlabGuide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    del-Moonlight/MatlabGuide
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -230,7 +290,7 @@
   
   
   <span class="md-ellipsis">
-    Chapter 1 MATLAB基础：环境工程计算入门
+    Chapter 1 MATLAB基础：工程计算入门
     
   </span>
   
@@ -243,7 +303,7 @@
   
   
   <span class="md-ellipsis">
-    Chapter 1 MATLAB基础：环境工程计算入门
+    Chapter 1 MATLAB基础：工程计算入门
     
   </span>
   
@@ -293,29 +353,25 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#113" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.1.3 温度曲线绘制案例
-    </span>
-  </a>
+      </ul>
+    </nav>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2 基础语法与矩阵操作（扩展版）
+      1.2 基础语法与数据结构
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1.2 基础语法与矩阵操作（扩展版）">
+    <nav class="md-nav" aria-label="1.2 基础语法与数据结构">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#121" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.1 变量命名与数据类型
+      1.2.1 变量命名与基础数组概念
     </span>
   </a>
   
@@ -324,43 +380,25 @@
           <li class="md-nav__item">
   <a href="#122" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.2 元胞数组和结构体
+      1.2.2 基本数据类型
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#123" class="md-nav__link">
+  <a href="#123-cell-arrays" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.3 矩阵构造与四则运算
+      1.2.3 元胞数组 (Cell Arrays)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#124" class="md-nav__link">
+  <a href="#124-structs" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.4 矩阵下标与访问
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#125" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.2.5 程序结构
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#126" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.2.6 绘图：二维与三维平面
+      1.2.4 结构体 (Structs)
     </span>
   </a>
   
@@ -370,20 +408,21 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#13" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3 环境数据导入与预处理
+      1.3 矩阵/数组操作基础
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="1.3 矩阵/数组操作基础">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#131" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3.1 多源数据导入方法
+      1.3.1 矩阵构造与基本运算
     </span>
   </a>
   
@@ -392,7 +431,7 @@
           <li class="md-nav__item">
   <a href="#132" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3.2 数据质量控制
+      1.3.2 矩阵下标与访问
     </span>
   </a>
   
@@ -403,10 +442,209 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 程序控制结构与函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4 程序控制结构与函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4.1 条件语句：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4.2 循环语句
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4.3 函数的定义与使用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 数据导入与初步处理
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5 数据导入与初步处理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5.1 多源数据导入方法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5.2 数据质量控制与清洗
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6 数据可视化
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6 数据可视化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.1 二维绘图基础
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.2 绘制环境数据曲线案例
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#163" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.3 三维绘图
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#165" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.5保存图形
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7 扩展功能：MATLAB 工具箱
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7 扩展功能：MATLAB 工具箱">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171-matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7.1 什么是 MATLAB 工具箱？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7.2 环境工程相关的常用工具箱介绍
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7.3 工具箱的安装与管理
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapter 2：环境工程数据可视化
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -509,29 +747,25 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#113" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.1.3 温度曲线绘制案例
-    </span>
-  </a>
+      </ul>
+    </nav>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#12" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2 基础语法与矩阵操作（扩展版）
+      1.2 基础语法与数据结构
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1.2 基础语法与矩阵操作（扩展版）">
+    <nav class="md-nav" aria-label="1.2 基础语法与数据结构">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#121" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.1 变量命名与数据类型
+      1.2.1 变量命名与基础数组概念
     </span>
   </a>
   
@@ -540,43 +774,25 @@
           <li class="md-nav__item">
   <a href="#122" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.2 元胞数组和结构体
+      1.2.2 基本数据类型
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#123" class="md-nav__link">
+  <a href="#123-cell-arrays" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.3 矩阵构造与四则运算
+      1.2.3 元胞数组 (Cell Arrays)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#124" class="md-nav__link">
+  <a href="#124-structs" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2.4 矩阵下标与访问
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#125" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.2.5 程序结构
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#126" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.2.6 绘图：二维与三维平面
+      1.2.4 结构体 (Structs)
     </span>
   </a>
   
@@ -586,20 +802,21 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#13" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3 环境数据导入与预处理
+      1.3 矩阵/数组操作基础
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="1.3 矩阵/数组操作基础">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#131" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3.1 多源数据导入方法
+      1.3.1 矩阵构造与基本运算
     </span>
   </a>
   
@@ -608,7 +825,7 @@
           <li class="md-nav__item">
   <a href="#132" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3.2 数据质量控制
+      1.3.2 矩阵下标与访问
     </span>
   </a>
   
@@ -616,6 +833,183 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 程序控制结构与函数
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.4 程序控制结构与函数">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4.1 条件语句：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4.2 循环语句
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#143" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4.3 函数的定义与使用
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 数据导入与初步处理
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.5 数据导入与初步处理">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#151" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5.1 多源数据导入方法
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#152" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5.2 数据质量控制与清洗
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6 数据可视化
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.6 数据可视化">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#161" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.1 二维绘图基础
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#162" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.2 绘制环境数据曲线案例
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#163" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.3 三维绘图
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#165" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6.5保存图形
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7 扩展功能：MATLAB 工具箱
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.7 扩展功能：MATLAB 工具箱">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171-matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7.1 什么是 MATLAB 工具箱？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7.2 环境工程相关的常用工具箱介绍
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.7.3 工具箱的安装与管理
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
   
 </li>
       
@@ -634,240 +1028,936 @@
                   
 
 
+  
+  
 
-<h1 id="chapter-1-matlab">Chapter 1 MATLAB基础：环境工程计算入门</h1>
+
+<h1 id="chapter-1-matlab">Chapter 1 MATLAB基础：工程计算入门</h1>
 <h2 id="11-matlab">1.1 开始使用MATLAB</h2>
 <h3 id="111">1.1.1 开发环境配置</h3>
-<p>MATLAB R2024a的界面包括多个核心组件，方便用户进行各种工程计算和数据可视化。以下是MATLAB开发环境的主要部分：</p>
+<p>如果是第一次使用MATLAB，启动后会显示一个这样的默认工作界面                </p>
+<p><img alt="image-1" src="../images/image-1.png" /></p>
+<p>这个界面包括MATLAB的多个核心组件，它们共同提供了一个<code>集成的工作平台</code>（IDE），方便用户进行工作。以下是MATLAB开发环境的主要部分：</p>
 <ol>
-<li><strong>命令窗口(Command Window)</strong>：这是MATLAB的交互式执行窗口，您可以在这里输入代码并即时查看计算结果，适用于快速调试和验证。</li>
-<li><strong>工作区(Workspace)</strong>：显示当前会话中所有变量的值和类型，这有助于用户跟踪和管理数据。</li>
-<li><strong>编辑器(Editor)</strong>：MATLAB的代码编辑器具有智能提示、语法高亮和自动缩进等功能，非常适合编写和调试较复杂的代码。</li>
-<li><strong>应用程序(App Designer)</strong>：用于开发图形用户界面（GUI），方便用户创建交互式应用程序。本章第五节将详细介绍。</li>
+<li><strong>命令行窗口(Command Window)</strong>：这是MATLAB的交互式执行窗口，在这里输入命令或代码并即时查看计算结果，适用于快速调试和验证</li>
 </ol>
-<p>为了进行环境工程相关的计算，我们还需要安装一些额外的工具箱：</p>
+<p><img alt="image-2" src="../images/image-2.png" />
+2. <strong>工作区(Workspace)</strong>：显示当前会话中所有变量的值和类型，有助于跟踪和管理已有的数据  </p>
+<p>比如在命令行输入一个赋值语句后按<code>Enter（回车）</code>执行，工作区就会记录新的变量和它对应的值。对于<code>a+b</code>这种变量全被赋值的运算命令，MATLAB会很贴心地自己生成一个<code>ans(answer)</code>变量，并给<code>ans</code>赋值为运算答案</p>
+<div class="admonition tip">
+<p class="admonition-title">提示</p>
+<p>自己在命令行窗口输入试试看！☝️🤓</p>
+</div>
+<p><img alt="image-3" src="../images/image-3.png" />
+3. <strong>当前目录窗口和“主页”选项卡</strong></p>
 <ul>
-<li><strong>Mapping Toolbox</strong>：用于地理空间数据分析，非常适合处理环境监测数据。</li>
-<li><strong>Curve Fitting Toolbox</strong>：用于模型拟合，能够通过不同的算法找到数据中的最佳拟合曲线。</li>
-<li><strong>Partial Differential Equation Toolbox (PDE求解)</strong>：解决与环境工程相关的偏微分方程，适用于模拟大气污染扩散等问题。</li>
+<li>
+<p>当前目录窗口在命令行窗口的上方，有一个显示当前工作目录路径的地址栏，点击或直接输入路径来切换工作目录，在命令行窗口左侧是<strong>当前文件夹窗口 (Current Folder Window)</strong>，这个窗口会列出当前工作目录下的所有文件和子文件夹，双击文件即可在MATLAB中打开（例如，<code>.m</code>文件会在编辑器中打开，<code>.mat</code>文件会在变量编辑器中打开）</p>
+</li>
+<li>
+<p><strong>“主页”选项卡 (Home Tab)</strong> 是 MATLAB 工具条的核心部分，提供许多常用功能的按钮入口，例如“新建脚本”、“新建实时脚本”、“打开”、“保存”、“运行”等。我们可以通过点击这些按钮，利用图形界面快速执行文件管理、代码运行等操作。当选择<code>新建脚本/实时脚本</code>，就会触发“编辑器”界面</p>
+</li>
 </ul>
+<p><img alt="image-4" src="../images/image-4.png" />
+4. <strong>编辑器(Editor)</strong>：代码编辑器是编写、管理脚本文件 (.m 文件) 和函数的主要工具，我们主要在编辑器里进行脚本编写。它提供了丰富的功能来提高编码效率，包括<strong>语法高亮</strong>（让代码结构清晰）、<strong>智能代码补全/提示</strong>（减少输入错误，加快速度）和<strong>自动缩进</strong>（保持代码整洁）。编辑器还集成了强大的<strong>调试工具</strong>，例如可以方便地<strong>设置断点</strong>和<strong>逐行执行代码</strong>，结合工作区查看变量状态，从而高效地查找和修正程序中的错误。</p>
+<p><img alt="image-5" src="../images/image-5.png" />
+5. <strong>“绘图”选项卡</strong>：绘制数据图形。单击右侧的下拉按钮，从下拉列表中可以选择不同的绘制命令（我们也可以在编写脚本时用命令行调用这些绘制命令）</p>
+<p><img alt="image-6" src="../images/image-6.png" />
+6. <strong>应用程序设计工具(App Designer)</strong>：App Designer 是 MATLAB 中用于创建专业的图形用户界面 (GUI) 的交互式环境。拖放组件和编写回调函数可以让我们轻松地设计和构建交互式应用程序，无需深入了解复杂的 GUI 编程细节。在后面的第五小节将展开介绍</p>
+<p><img alt="image-7" src="../images/image-7.png" /></p>
+<p>工作界面就先认识到这里，我想此时你可能正开着编辑器吧，不如先简单敲一个最基本的<code>脚本</code>，像下面这样：  </p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">x</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">:</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">50</span><span class="p">;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">y</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.*</span><span class="nb">cos</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nb">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+</span></code></pre></div>
+<p>然后点击<code>“运行”（需要保存当前文件）</code>或用鼠标左键拖动选中这三行代码&amp;&amp;然后右键&amp;&amp;选择<code>在命令行窗口中执行所选内容 F9（首选项）（无需保存即可执行）</code>，运行这个脚本。不出意外的话会得到一个<code>Figure 1</code>窗口，里面是该脚本绘制的图像（图中显示的XY值是随鼠标在图像上移动而变化的，试试看）</p>
+<p><img alt="image-8" src="../images/image-8.png" /></p>
+<blockquote>
+<p>以下是对代码段的解释</p>
+<ul>
+<li>
+<p><code>x = 0:0.1:50;</code> 使用冒号运算符创建了一个从 0 到 50，步长为 0.1 的向量， 这是MATLAB 中创建数值序列的常用且简洁的方式</p>
+</li>
+<li>
+<p><code>y = sin(x).*cos(x);</code> 使用了数组乘法 <code>.*</code>，处理向量或矩阵对应元素相乘的标准方法，体现了 MATLAB 的数组运算特性</p>
+</li>
+<li>
+<p><code>plot(x,y)</code> 绘制二维图形的基本函数</p>
+</li>
+</ul>
+<p>不要担心，接下来的基础语法小节会让你学会这些语法知识  </p>
+</blockquote>
+<p>以上是一个基础绘图的例子，为了让大家尽快感受到MATLAB 强大的可视化能力，这里再提供一个已经写好的示例脚本，下载到本地后用MATLAB打开并运行，我想至少会有不错的视觉效果  </p>
+<p><a href="../MATLABcodes/Heart.m" download class="md-button">下载MATLAB代码</a></p>
+<p>这也仅仅是MATLAB<strong>核心组件</strong>的简单绘图效果，不知能否让你感受到它的神奇之处。</p>
+<div class="admonition question">
+<p class="admonition-title">思考</p>
+<p>注意到<code>Figure 1</code>窗口的图像部分右上角的几个按钮了吗？
+你可以尝试将鼠标放置在上面查看它们的功能说明，然后分别尝试一下(●'◡'●)</p>
+</div>
 <h3 id="112">1.1.2 基础操作规范</h3>
-<p>在MATLAB中，以下是一些基础的操作规范和技巧：</p>
+<p>在开始编写更多代码之前，我们需要了解一些 MATLAB 的<code>基础操作规范</code>：</p>
 <ul>
-<li><strong>帮助文档调用</strong>：通过<code>doc</code>命令可以查看函数的详细文档。例如：</li>
+<li><strong>获取帮助文档</strong>：<ul>
+<li><code>doc function_name</code>：输入<code>doc</code>命令加上函数名，可以打开该函数的官方帮助文档，查看其详细说明、用法示例和相关函数。例如：
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">doc</span><span class="w"> </span><span class="nb">plot</span><span class="w">      </span><span class="c">% 查看官方文档对 plot 函数的说明</span>
+</span></code></pre></div></li>
+<li><code>lookfor keyword</code>：如果只记得某个功能的关键词，可以使用 lookfor 命令进行<code>搜索</code>。例如：
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">lookfor</span><span class="w"> </span><span class="n">fourier</span><span class="w"> </span><span class="c">% 使用关键词搜索与傅里叶变换相关的函数</span>
+</span></code></pre></div></li>
 </ul>
-<p><code>matlab
-  doc plot        % 查看官方文档
-  lookfor fourier % 使用关键词搜索相关函数</code></p>
+</li>
+<li><strong>添加代码注释</strong>：
+  良好的代码注释能极大提高代码的可读性和可维护性。<ul>
+<li><code>%</code>：单行注释。在代码行前或行后使用<code>%</code>，该符号到行尾的所有内容都会被 MATLAB 忽略。
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c">% 这是一行注释</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">x</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="c">% 变量 x 赋值为 10</span>
+</span></code></pre></div></li>
+<li><code>%%</code>：分节注释（Code Sections）。在编辑器中，以<code>%%</code>开头可以创建一个代码节。代码节有助于组织代码，并且可以使用 Ctrl+Enter 快捷键单独运行当前节的代码，非常方便调试和分步执行。
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c">%% 数据初始化</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">a</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">b</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c">%% 执行计算</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">c</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
+</span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">提示</p>
+<p>强烈建议养成写注释的好习惯，不然自己回头看自己写的代码时会非常痛苦（这是什么、那又是什么）<br />
+使用<code>Ctrl+Enter</code>快捷键单独运行当前节的代码，起到调试的作用（便于确定问题出现在哪一小节的意思）</p>
+</div>
 <ul>
-<li><strong>代码注释标准</strong>：代码注释是良好编程习惯的一部分，可以提高代码可读性。</li>
+<li><strong>清空界面与工作区</strong>：<ul>
+<li><code>clc</code>：清空命令行窗口的所有显示内容，让界面更整洁。</li>
+<li><code>clear</code>：清空工作区的所有变量。如果想清除特定变量，可以使用<code>clear var1 var2</code>的形式</li>
 </ul>
-<p><code>matlab
-  % 单行注释
-  %% 分节注释（可在编辑器中使用Ctrl+Enter运行本节）</code></p>
-<h3 id="113">1.1.3 温度曲线绘制案例</h3>
-<p>以下是基于中国气象局2023年实测数据的温度曲线绘制案例：</p>
-<pre><code class="language-matlab">% 北京月平均温度(℃)
-months = linspace(1,12,12);
-temp = [-3.2, 0.7, 7.6, 15.2, 21.8, 26.1, 
-        27.9, 26.4, 21.5, 14.8, 6.3, -1.1];
-
-figure('Name','城市温度分析','Color','white')
-plot(months, temp, 'LineWidth', 1.5, 'Color', [0.2 0.4 0.8])
-xlabel('月份', 'FontSize', 11, 'FontName', 'Microsoft YaHei')
-ylabel('温度(℃)', 'FontSize', 11)
-title('北京市2023年月平均温度变化','FontWeight','bold')
-set(gca, 'GridLineStyle', '--')  % 设置网格线样式
-</code></pre>
-<p>此外，我们还可以模拟火星的温度变化，以模拟环境监测数据的处理：</p>
-<pre><code class="language-matlab">% 火星乌托邦平原日照时段温度模拟
-sol = 0:0.5:24;  % 火星时(Mars Local Time)
-T_surface = -50 + 30*sin(2*pi*sol/24);  % 简化的热力学模型
-
-figure('Position', [100 100 600 300])  % 设置图形位置和大小
-plot(sol, T_surface, 'r-', 'DisplayName', '地表温度')
-xlim([0 24])
-xticks(0:4:24)
-xlabel('火星时 (MLT)')
-ylabel('温度(℃)')
-legend('Location', 'northeast')
-text(8, -20, {'数据来源：', 'Mars Climate Database v5.3'},...
-     'EdgeColor', 'k')
-</code></pre>
-<hr />
-<p>要将<strong>变量命名、数据类型、元胞数组和结构体、矩阵构造与四则运算、矩阵下标、程序结构、二维与三维平面绘图</strong>等内容融入到第一章的内容中，您可以按照以下方式进行扩展和组织：</p>
-<h3 id="12">1.2 基础语法与矩阵操作（扩展版）</h3>
-<h4 id="121">1.2.1 变量命名与数据类型</h4>
+</li>
+<li><strong>管理工作目录</strong>：
+ MATLAB 在执行脚本或函数时，会首先在<strong>当前工作目录</strong>中查找文件。时刻注意保持查看的脚本和所需数据文件都位于当前工作目录，通过界面上方的路径栏切换目录。</li>
+<li><strong>保存与加载数据</strong>：<ul>
+<li><code>save filename.mat</code>：将当前工作区中的所有变量保存到一个名为 <code>filename.mat</code>的二进制文件中。</li>
+<li><code>load filename.mat</code>：从指定的<code>.mat</code>文件中加载变量到当前工作区。</li>
+</ul>
+</li>
+<li><strong>使用分号抑制输出</strong>：<br />
+ 命令行窗口中默认显示每行代码的计算结果，但在脚本中，不想或没必要看到每一步的中间结果，可以在语句末尾加上分号<code>;</code>来抑制输出。这是一个非常常见的 MATLAB 编程习惯。</li>
+</ul>
+<h2 id="12">1.2 基础语法与数据结构</h2>
+<p>之前有提到过MATLAB语法与C语言的相似性，别紧张，MATLAB的语法非常简单，无论有没有编程基础，都可以轻松上手。只不过以下内容学习过C语言的同学可以进行快速浏览，也能对比发现MATLAB的一些不同点，相对宽松的语法和简洁的代码结构使得MATLAB成为许多科学计算和工程应用的首选。</p>
+<div class="admonition tip">
+<p class="admonition-title">提示</p>
+<p>下面的内容可以在编辑器中编写脚本，用注释的形式记录笔记，方便以后查阅</p>
+</div>
+<h3 id="121">1.2.1 变量命名与基础数组概念</h3>
 <p>MATLAB的变量命名规则相对宽松，但为了提高代码的可读性和规范性，建议遵循一些最佳实践：</p>
 <ul>
-<li>变量名必须以字母开头，后跟字母、数字或下划线（<code>_</code>）。</li>
-<li>变量名应该具有描述性，避免使用单个字母（除非是常见的数学符号，如<code>i</code>表示虚数单位）。</li>
+<li>变量名必须以字母开头，后跟字母、数字或下划线（<code>_</code>）</li>
+<li>变量名应该具有描述性，避免使用单个字母。常见的例外包括用于表示虚数单位的<code>i</code>或<code>j</code>，以及用于循环计数的<code>k</code>、<code>m</code>、<code>n</code>等</li>
+<li>变量名区分大小写，<code>A</code>和<code>a</code>是不同的变量</li>
+<li>避免使用 MATLAB 内置函数、关键字或常量的名称作为变量名（例如 <code>sin</code>, <code>plot</code>, <code>for</code>,<code>pi</code> 等），否则会覆盖其原有功能</li>
+<li>变量名应尽量使用有意义的单词或短语，而不是简单的缩写</li>
 </ul>
+<p>数组是MATLAB的基础</p>
+<p>在 MATLAB 中，<strong>数组（Array）是处理和存储数据的最基本单位和核心概念</strong>。简单来说，数组就是一个用来存放一系列相关数据的地方，这些数据可以是数字、文本、逻辑值等。即使是一个单独的数值（比如<code>5</code>）或单个字符（比如<code>'a'</code>），在 MATLAB 内部也被看作是一个 1x1 的数组（也称作<code>标量</code>）。</p>
+<p>规定用方括号<code>[]</code>来创建最常见的数组。这类使用<code>[]</code>创建的数组通常是<strong>同质</strong>的，也就是说它们里面的所有元素都属于<strong>同一类型</strong>（例如，一个数组里所有元素都是数字，或者所有元素都是字符，或者所有元素都是逻辑值）。</p>
+<p>MATLAB 的数组可以是不同维度的：</p>
+<ul>
+<li><strong>一维数组</strong>，通常称为<strong>向量（Vector）</strong>，可以表示一行或一列数据</li>
+<li><strong>二维数组</strong>，通常称为<strong>矩阵（Matrix）</strong>，可以表示一个表格状的数据</li>
+<li>MATLAB 也支持创建更高维度的数组</li>
+</ul>
+<p>理解数组的概念是学习 MATLAB 的关键，因为 MATLAB 的大部分强大功能和操作都是针对数组进行的（这种方式通常被称为<strong>向量化操作</strong>）。接下来的部分将介绍 MATLAB 支持的各种可以存储在数组（以及其他更复杂容器）中的<strong>数据类型</strong>。</p>
+<h3 id="122">1.2.2 基本数据类型</h3>
 <p>MATLAB支持的常见数据类型包括：</p>
 <ul>
-<li><strong>数值类型</strong>：如<code>double</code>（默认数值类型），<code>single</code>，<code>int8</code>等。</li>
-<li><strong>字符型与字符串</strong>：如<code>char</code>（字符数组）和<code>string</code>（字符串数组）。</li>
-<li><strong>逻辑型</strong>：如<code>true</code>和<code>false</code>。</li>
-<li><strong>元胞数组（cell arrays）</strong>：存储不同类型数据。</li>
-<li><strong>结构体（structs）</strong>：用于存储具有不同字段的关联数据。</li>
+<li><strong>数值类型</strong>：如<code>double</code>（默认数值类型，双精度浮点型），<code>single</code>（单精度浮点型），<code>int8</code>，<code>uint8</code>等（不同位数的整型）。</li>
+</ul>
+<details class="info">
+<summary>提示</summary>
+<p>为什么会有这么多不同的数值类型呢？简单来说，计算机存储数字的方式有很多种，这些不同的数值类型主要区别于它们能表示的数值范围（能表示多大的数字）和精度（对于小数来说，能精确到小数点后多少位），以及占用的内存空间大小。</p>
+<p><code>double</code>和<code>single</code>主要用来存储带有小数的数字（浮点数），<code>double</code>比<code>single</code>精度更高，也是 MATLAB 进行数值计算时默认使用的类型。</p>
+<p><code>int</code>和<code>uint</code>类型（如<code>int8</code>,<code>uint32</code>等）用来存储不带小数的整数。名称中的数字（如<code>8</code>,<code>16</code>,<code>32</code>,<code>64</code>）表示用来存储这个数字所需的“位数”，位数越多，能表示的整数范围就越大。<code>u</code>开头的 <code>uint</code>表示“无符号整数”，只能存储非负整数（<code>0和正整数</code>）。</p>
+<p>对于大多数日常计算和初学者的任务，直接使用默认的<code>double</code>类型通常就足够了。只有在处理需要严格控制内存使用、或者需要精确表示特定范围的整数时，才需要考虑使用其他数值类型。</p>
+<div class="admonition example">
+<p class="admonition-title">再提示</p>
+<p>也就是说，在日常计算中，我们不需要像<code>double x;</code>一样来声明变量类型，MATLAB会自动选择合适的类型。</p>
+</div>
+</details>
+<ul>
+<li><strong>字符数组 (<code>char</code>)</strong>：使用单引号<code>'...'</code>定义，通常用于存储文本或字符序列</li>
+<li><strong>字符串数组 (<code>string</code>)</strong>：使用双引号<code>"..."</code>定义，是 MATLAB R2016b 版本引入的新型字符串类型，功能更强大</li>
+</ul>
+<details class="info">
+<summary>为什么字符和字符串也叫“数组”？</summary>
+<p>对于刚接触 MATLAB 的初学者（特别是像笔者一样学过其他编程语言的朋友），可能会对“字符数组”和“字符串数组”的叫法感到一丝疑惑。在高级语言里，字符串大多数时候被当作一种基本类型或一个独立的对象。</p>
+<p>之前提到过，<strong>数组（或者说矩阵）是MATLAB最核心的数据结构</strong>。 它的理念是尽可能地把所有类型的数据都用数组的形式来组织和处理，这样可以更方便地进行批量操作和矩阵运算。</p>
+<ul>
+<li>
+<p><strong>字符数组 (<code>char</code>)</strong>： <code>'hello'</code> 这一串字符，在 MATLAB 看来，就是一个由 5 个字符元素按顺序组成的 <strong>1x5 的数组</strong>。每个位置放一个字符。所以称为“字符数组”是非常直观的。</p>
+</li>
+<li>
+<p><strong>字符串数组 (<code>string</code>)</strong>： <code>string</code> 类型更像是一个<strong>“存储字符串的容器”</strong>。即使你只有一个字符串，比如 <code>"world"</code>，MATLAB 把它看作一个包含一个元素的数组，这个元素就是完整的字符串 <code>"world"</code>。如果有多个字符串，例如 <code>["apple", "banana", "cherry"]</code>，这就是一个 1x3 的字符串数组，每个“单元”里放了一个完整的字符串。</p>
+</li>
+</ul>
+<p>对以上文字理解为“由字符组成的数组”和“由字符串组成的数组”就好。这是 MATLAB 处理文本数据的一种方式，和它处理数值数据（数值数组）的思路是一致的，都是放在数组框架下进行管理。习惯了这一点，你会发现 MATLAB 的很多操作都变得很好理解。</p>
+</details>
+<ul>
+<li><strong>逻辑型（<code>logical</code>）</strong>：如<code>true</code>和<code>false</code></li>
+<li><strong>元胞数组（<code>cell arrays</code>）</strong>：使用花括号<code>{}</code>定义，可以存储不同类型的数据</li>
+<li><strong>结构体（<code>structs</code>）</strong>：用于存储具有不同字段的关联数据，字段可以是不同类型</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<pre><code class="language-matlab">% 变量命名和数据类型示例
-radius = 5;  % 数值型变量
-location = [40.7128, -74.0060];  % 存储经纬度的数组
-name = &quot;MATLAB环境工程计算&quot;;  % 字符串变量
-is_active = true;  % 逻辑类型
-</code></pre>
-<h4 id="122">1.2.2 元胞数组和结构体</h4>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c">% 合法变量名示例</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">velocity</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mf">10.5</span><span class="p">;</span><span class="w"> </span><span class="c">% 描述性变量名</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">CO2_level</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mf">415.7</span><span class="p">;</span><span class="w"> </span><span class="c">% 含数字和下划线</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="n">Temp_2023</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mf">20.1</span><span class="p">,</span><span class="w"> </span><span class="mf">22.3</span><span class="p">,</span><span class="w"> </span><span class="mf">19.8</span><span class="p">];</span><span class="w"> </span><span class="c">% 时间序列数据</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">loop_index</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c">% 常用的循环变量名</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="c">% 避免使用的变量名示例 (不建议这样做)</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="c">% sin = 5; % 覆盖内置函数 sin</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="c">% for = 10; % 关键字，非法</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="c">% 数据类型演示(两个元胞数组，一个存放了相同类型的数据，一个存放了不同类型的数据)</span>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="n">data_types_list</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">{</span><span class="s">&#39;数值 (double)&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;字符数组 (char)&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;字符串数组 (string)&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;逻辑型 (logical)&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;元胞数组 (cell)&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;结构体 (struct)&#39;</span><span class="p">};</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="n">sample_data_list</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">{</span><span class="mf">3.14</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;这是一个字符数组&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;这是一个字符串数组&quot;</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;text&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mi">2</span><span class="w"> </span><span class="mi">3</span><span class="p">]},</span><span class="w"> </span><span class="nb">struct</span><span class="p">(</span><span class="s">&#39;name&#39;</span><span class="p">,</span><span class="s">&#39;Alice&#39;</span><span class="p">,</span><span class="s">&#39;age&#39;</span><span class="p">,</span><span class="mi">30</span><span class="p">)};</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>
+</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="c">% class() 函数用于查看变量的数据类型，它返回数据类型的名称（一个字符数组）</span>
+</span><span id="__span-5-16"><a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a><span class="c">% fprintf 函数用于格式化输出，%s 适用于打印字符串（包括 class()函数返回的类型名称）</span>
+</span><span id="__span-5-17"><a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a><span class="nb">fprintf</span><span class="p">(</span><span class="s">&#39;变量 3.14 的类型是: %s\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">class</span><span class="p">(</span><span class="mf">3.14</span><span class="p">));</span>
+</span><span id="__span-5-18"><a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a><span class="nb">fprintf</span><span class="p">(</span><span class="s">&#39;变量 &#39;&#39;abc&#39;&#39; 的类型是: %s\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">class</span><span class="p">(</span><span class="s">&#39;abc&#39;</span><span class="p">));</span>
+</span><span id="__span-5-19"><a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a><span class="nb">fprintf</span><span class="p">(</span><span class="s">&#39;变量 &quot;xyz&quot; 的类型是: %s\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">class</span><span class="p">(</span><span class="s">&quot;xyz&quot;</span><span class="p">));</span>
+</span><span id="__span-5-20"><a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a><span class="nb">fprintf</span><span class="p">(</span><span class="s">&#39;变量 true 的类型是: %s\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">class</span><span class="p">(</span><span class="nb">true</span><span class="p">));</span>
+</span><span id="__span-5-21"><a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a><span class="nb">fprintf</span><span class="p">(</span><span class="s">&#39;变量 {1} 的类型是: %s\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">class</span><span class="p">({</span><span class="mi">1</span><span class="p">}));</span>
+</span><span id="__span-5-22"><a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a><span class="nb">fprintf</span><span class="p">(</span><span class="s">&#39;变量 struct() 的类型是: %s\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">class</span><span class="p">(</span><span class="nb">struct</span><span class="p">()));</span>
+</span><span id="__span-5-23"><a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a>
+</span><span id="__span-5-24"><a id="__codelineno-5-24" name="__codelineno-5-24" href="#__codelineno-5-24"></a><span class="c">% 或者继续使用表格展示示例数据（需要调整以匹配新的列表）</span>
+</span><span id="__span-5-25"><a id="__codelineno-5-25" name="__codelineno-5-25" href="#__codelineno-5-25"></a><span class="c">% 为了清晰，将列表和示例数据分别放入表格中</span>
+</span><span id="__span-5-26"><a id="__codelineno-5-26" name="__codelineno-5-26" href="#__codelineno-5-26"></a><span class="n">dataTypeNames</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data_types_list</span><span class="o">&#39;</span><span class="p">;</span>
+</span><span id="__span-5-27"><a id="__codelineno-5-27" name="__codelineno-5-27" href="#__codelineno-5-27"></a><span class="n">sampleValues</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">sample_data_list</span><span class="o">&#39;</span><span class="p">;</span>
+</span><span id="__span-5-28"><a id="__codelineno-5-28" name="__codelineno-5-28" href="#__codelineno-5-28"></a>
+</span><span id="__span-5-29"><a id="__codelineno-5-29" name="__codelineno-5-29" href="#__codelineno-5-29"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;常见数据类型列表:&#39;</span><span class="p">);</span>
+</span><span id="__span-5-30"><a id="__codelineno-5-30" name="__codelineno-5-30" href="#__codelineno-5-30"></a><span class="nb">disp</span><span class="p">(</span><span class="nb">cell2table</span><span class="p">(</span><span class="n">dataTypeNames</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;VariableNames&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="s">&#39;数据类型&#39;</span><span class="p">}));</span>
+</span><span id="__span-5-31"><a id="__codelineno-5-31" name="__codelineno-5-31" href="#__codelineno-5-31"></a>
+</span><span id="__span-5-32"><a id="__codelineno-5-32" name="__codelineno-5-32" href="#__codelineno-5-32"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;不同数据类型的示例值:&#39;</span><span class="p">);</span>
+</span><span id="__span-5-33"><a id="__codelineno-5-33" name="__codelineno-5-33" href="#__codelineno-5-33"></a><span class="c">% cell2table对于复杂的数据类型（如结构体）可能显示不全，但对于基本类型没问题</span>
+</span><span id="__span-5-34"><a id="__codelineno-5-34" name="__codelineno-5-34" href="#__codelineno-5-34"></a><span class="c">% 或者直接用 cell 显示</span>
+</span><span id="__span-5-35"><a id="__codelineno-5-35" name="__codelineno-5-35" href="#__codelineno-5-35"></a><span class="nb">disp</span><span class="p">(</span><span class="n">sample_data_list</span><span class="p">);</span>
+</span><span id="__span-5-36"><a id="__codelineno-5-36" name="__codelineno-5-36" href="#__codelineno-5-36"></a>
+</span><span id="__span-5-37"><a id="__codelineno-5-37" name="__codelineno-5-37" href="#__codelineno-5-37"></a><span class="c">% 如果坚持用一个表格展示，需要注意结构体的显示限制</span>
+</span><span id="__span-5-38"><a id="__codelineno-5-38" name="__codelineno-5-38" href="#__codelineno-5-38"></a><span class="c">% combined_data = [dataTypeNames, sampleValues];</span>
+</span><span id="__span-5-39"><a id="__codelineno-5-39" name="__codelineno-5-39" href="#__codelineno-5-39"></a><span class="c">% disp(cell2table(combined_data, &#39;VariableNames&#39;, {&#39;数据类型&#39;, &#39;示例值&#39;})); % 可能显示不全</span>
+</span></code></pre></div>
+<h3 id="123-cell-arrays">1.2.3 元胞数组 (Cell Arrays)</h3>
+<p>除了前面提到的基础数组 (<code>[]</code>) 外，MATLAB 还提供了其他更灵活的数据容器：元胞数组和结构体，用来存储不同类型的数据。</p>
 <ul>
-<li><strong>元胞数组</strong>：可以存储不同数据类型的元素。常用于存储混合数据。</li>
+<li><strong>元胞数组(<code>cell arrays</code>)</strong>：<ul>
+<li><strong>特点</strong>： 元胞数组是一种特殊的数组，它的每一个“元胞”（Cell）可以存储<strong>任意类型、任意大小</strong>的数据。这与基础数组 (<code>[]</code>) 只能存储同类型数据不同。元胞数组常用于存储混合数据，或者需要一个可以存放不同维度矩阵的数组时</li>
+<li><strong>创建</strong>： 使用花括号<code>{}</code>来创建元胞数组</li>
+<li><strong>访问</strong>：<ul>
+<li>使用<strong>圆括号</strong><code>()</code>进行<strong>元胞索引</strong>，访问结果是一个<strong>子元胞数组</strong></li>
+<li>使用<strong>花括号</strong><code>{}</code>进行<strong>内容索引</strong>，访问结果是该元胞中<strong>存储的实际数据</strong>。这是元胞数组访问中一个<strong>易混淆的点</strong></li>
 </ul>
-<p><code>matlab
-  C = {1, 'text', [1, 2, 3]};
-  disp(C{2});  % 访问元胞数组中的元素</code></p>
+</li>
+<li><strong>添加/修改元素</strong>：可以像普通数组一样使用索引添加或修改元胞内容</li>
+</ul>
+</li>
+</ul>
+<p><strong>示例</strong>：
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c">% 创建一个元胞数组</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">C</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;这是一个字符数组&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">],</span><span class="w"> </span><span class="nb">true</span><span class="p">};</span><span class="w"> </span><span class="c">% 存储了数值、字符数组、矩阵、逻辑值</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="nb">disp</span><span class="p">(</span><span class="n">C</span><span class="p">);</span><span class="w"> </span><span class="c">% 显示整个元胞数组的结构</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="c">% 元胞数组访问示例</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="c">% 使用 () 访问 - 返回一个元胞数组</span>
+</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="n">sub_C</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">C</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问第二个元胞，sub_C 是一个 1x1 的元胞数组 { &#39;这是一个字符数组&#39; }</span>
+</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="nb">disp</span><span class="p">(</span><span class="n">sub_C</span><span class="p">);</span>
+</span><span id="__span-6-10"><a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="nb">disp</span><span class="p">(</span><span class="nb">class</span><span class="p">(</span><span class="n">sub_C</span><span class="p">));</span><span class="w"> </span><span class="c">% 显示 &#39;cell&#39;</span>
+</span><span id="__span-6-11"><a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>
+</span><span id="__span-6-12"><a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a><span class="c">% 使用 {} 访问 - 返回元胞中的内容</span>
+</span><span id="__span-6-13"><a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a><span class="n">content_of_cell</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">C</span><span class="p">{</span><span class="mi">2</span><span class="p">};</span><span class="w"> </span><span class="c">% 访问第二个元胞的内容，content_of_cell 是 &#39;这是一个字符数组&#39; (char 类型)</span>
+</span><span id="__span-6-14"><a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a><span class="nb">disp</span><span class="p">(</span><span class="n">content_of_cell</span><span class="p">);</span>
+</span><span id="__span-6-15"><a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a><span class="nb">disp</span><span class="p">(</span><span class="nb">class</span><span class="p">(</span><span class="n">content_of_cell</span><span class="p">));</span><span class="w"> </span><span class="c">% 显示 &#39;char&#39;</span>
+</span><span id="__span-6-16"><a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>
+</span><span id="__span-6-17"><a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a><span class="c">% 访问二维元胞数组</span>
+</span><span id="__span-6-18"><a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a><span class="n">C_2D</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">{</span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;aa&#39;</span><span class="p">;</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="w"> </span><span class="mi">6</span><span class="p">],</span><span class="w"> </span><span class="nb">false</span><span class="p">};</span>
+</span><span id="__span-6-19"><a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a><span class="nb">disp</span><span class="p">(</span><span class="n">C_2D</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">});</span><span class="w"> </span><span class="c">% 访问第一行第二列元胞的内容 &#39;aa&#39;</span>
+</span><span id="__span-6-20"><a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a>
+</span><span id="__span-6-21"><a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a><span class="n">C</span><span class="p">{</span><span class="k">end</span><span class="o">+</span><span class="mi">1</span><span class="p">}</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">rand</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c">% 在末尾添加一个新的元胞，内容是一个 3x1 的随机数向量</span>
+</span><span id="__span-6-22"><a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a><span class="n">C</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">}</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&quot;这是一个字符串&quot;</span><span class="p">;</span><span class="w"> </span><span class="c">% 修改第一行第三列的元胞内容 (如果 C_2D 足够大或已定义)</span>
+</span></code></pre></div></p>
+<div class="admonition tip">
+<p class="admonition-title">提示:<code>()</code>vs<code>{}</code>访问元胞数组</p>
+<p>记住：圆括号<code>()</code>给你“元胞盒子本身”（可能是一个或多个盒子），而花括号<code>{}</code> 打开“元胞盒子”，取出里面的“东西”（实际数据）。对于有其他语言数组或列表经验的朋友，这个双重索引方式是 MATLAB 元胞数组特有的，需要特别注意区分。</p>
+</div>
+<h3 id="124-structs">1.2.4 结构体 (Structs)</h3>
 <ul>
-<li><strong>结构体</strong>：可以将多个数据字段组织在一起，适合存储与某一对象相关的信息，如存储一个气象站的数据。</li>
+<li><strong>结构体（<code>structs</code>）</strong>：<ul>
+<li><strong>特点</strong>：结构体是一种用来组织不同类型数据的容器，通过<strong>命名的字段（field）</strong>来存储数据。它非常适合用来表示具有多个属性的“对象”或记录</li>
+<li><strong>创建</strong>：使用<code>struct</code>+点号<code>.</code>来创建结构体、为结构体添加字段并赋值</li>
+<li><strong>访问</strong>：使用点号<code>.</code>加上字段名来访问特定字段的数据</li>
 </ul>
-<p><code>matlab
-  station.name = '北京';
-  station.temperature = [1.1, 2.2, 3.3];  % 温度数组
-  station.location = [39.9042, 116.4074];  % 经纬度</code></p>
-<h4 id="123">1.2.3 矩阵构造与四则运算</h4>
-<p>MATLAB的核心是矩阵，以下是一些常用的矩阵操作：</p>
+</li>
+</ul>
+<p><strong>示例</strong>：
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c">% 创建一个表示气象站信息的结构体</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">station</span><span class="p">.</span><span class="n">name</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&#39;北京&#39;</span><span class="p">;</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="n">station</span><span class="p">.</span><span class="n">temperature</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mf">1.1</span><span class="p">,</span><span class="w"> </span><span class="mf">2.2</span><span class="p">,</span><span class="w"> </span><span class="mf">3.3</span><span class="p">];</span><span class="w"> </span><span class="c">% 温度数组 (数值向量)</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="n">station</span><span class="p">.</span><span class="n">location</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mf">39.9042</span><span class="p">,</span><span class="w"> </span><span class="mf">116.4074</span><span class="p">];</span><span class="w"> </span><span class="c">% 经纬度 (数值向量)</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">station</span><span class="p">.</span><span class="n">isActive</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span><span class="w"> </span><span class="c">% 逻辑值</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="c">% 访问结构体的字段</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="nb">disp</span><span class="p">(</span><span class="n">station</span><span class="p">.</span><span class="n">name</span><span class="p">);</span><span class="w"> </span><span class="c">% 显示 &#39;北京&#39;</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="nb">disp</span><span class="p">(</span><span class="n">station</span><span class="p">.</span><span class="n">temperature</span><span class="p">);</span><span class="w"> </span><span class="c">% 显示 [1.1, 2.2, 3.3]</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>
+</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="c">% 修改结构体的字段</span>
+</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="n">station</span><span class="p">.</span><span class="n">temperature</span><span class="p">(</span><span class="k">end</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mf">4.5</span><span class="p">;</span><span class="w"> </span><span class="c">% 给温度数组添加一个值</span>
+</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a><span class="n">station</span><span class="p">.</span><span class="n">elevation</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mf">54.6</span><span class="p">;</span><span class="w"> </span><span class="c">% 添加一个新字段</span>
+</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>
+</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a><span class="c">% 结构体数组 (补充)</span>
+</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a><span class="c">% 可以创建结构体数组，每个元素是一个结构体</span>
+</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a><span class="n">station</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="n">name</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&#39;上海&#39;</span><span class="p">;</span>
+</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a><span class="n">station</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="n">temperature</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mf">5.5</span><span class="p">,</span><span class="w"> </span><span class="mf">6.6</span><span class="p">];</span>
+</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a><span class="n">station</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="n">location</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mf">31.2304</span><span class="p">,</span><span class="w"> </span><span class="mf">121.4737</span><span class="p">];</span>
+</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a><span class="c">% 注意：结构体数组中同一位置的结构体必须有相同的字段名集合（字段数量可以不同，但通常建议保持一致）</span>
+</span><span id="__span-7-21"><a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a><span class="nb">disp</span><span class="p">(</span><span class="n">station</span><span class="p">(</span><span class="mi">1</span><span class="p">).</span><span class="n">name</span><span class="p">);</span><span class="w"> </span><span class="c">% 显示 &#39;北京&#39;</span>
+</span><span id="__span-7-22"><a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="nb">disp</span><span class="p">(</span><span class="n">station</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="n">location</span><span class="p">);</span><span class="w"> </span><span class="c">% 显示 [31.2304, 121.4737]</span>
+</span></code></pre></div></p>
+<div class="admonition tip">
+<p class="admonition-title">结构体与元胞数组的选择</p>
+<p>当需要用<strong>名字</strong>来区分和访问数据项时，使用结构体更方便（例如<code>station.name</code>）。当需要用<strong>编号或索引</strong>来访问不同数据项，且数据项类型多样时，元胞数组更合适（例如<code>C{1}</code>,<code>C{2}</code>）。</p>
+</div>
+<h2 id="13">1.3 矩阵/数组操作基础</h2>
+<p>MATLAB的核心是矩阵，下面介绍如何构造矩阵和进行基本的四则运算。</p>
+<h3 id="131">1.3.1 矩阵构造与基本运算</h3>
 <ul>
-<li><strong>矩阵构造</strong>：可以通过方括号<code>[]</code>创建矩阵。</li>
-</ul>
-<p><code>matlab
-  A = [1, 2; 3, 4];  % 2x2矩阵
-  B = [5; 6];  % 2x1列向量</code></p>
+<li>
+<p><strong>矩阵构造</strong>：可以通过方括号<code>[]</code>来直接输入数据构造矩阵</p>
 <ul>
-<li><strong>四则运算</strong>：矩阵的加法、减法、乘法和除法。</li>
+<li>元素之间用逗号<code>,</code>或空格<code></code>分隔表示同一行内的不同列</li>
+<li>行之间用分号<code>;</code>分隔</li>
 </ul>
-<p><code>matlab
-  C = A + B;  % 矩阵加法
-  D = A * B;  % 矩阵乘法
-  E = A / 2;  % 每个元素除以2</code></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span><span class="w"> </span><span class="c">% 创建一个 2x2 的矩阵</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">B</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="mi">6</span><span class="p">];</span><span class="w"> </span><span class="c">% 创建一个 2x1 的列向量 (2行1列的矩阵)</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="n">C</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">];</span><span class="w"> </span><span class="c">% 创建一个 1x2 的行向量 (1行2列的矩阵)</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="c">% 通过已有矩阵拼接构造新矩阵</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="n">D</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="p">];</span><span class="w"> </span><span class="c">% 将 A 和 B 水平拼接，要求行数相同，结果是一个 2x3 的矩阵</span>
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="n">E</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="n">C</span><span class="p">;</span><span class="w"> </span><span class="p">[</span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">]];</span><span class="w"> </span><span class="c">% 将 C 和 [9, 10] 垂直拼接，要求列数相同，结果是一个 2x2 的矩阵</span>
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="c">% 常用的内置矩阵构造函数</span>
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a><span class="nb">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="c">% 创建一个 2x3 的全零矩阵</span>
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a><span class="nb">ones</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">)</span><span class="w">  </span><span class="c">% 创建一个 1x4 的全一向量</span>
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="nb">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="w">      </span><span class="c">% 创建一个 3x3 的单位矩阵</span>
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a><span class="nb">rand</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="w">     </span><span class="c">% 创建一个 2x2 的元素在 (0, 1) 之间均匀分布的随机矩阵</span>
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="nb">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span><span class="w"> </span><span class="c">% 创建一个 1x5 的元素符合标准正态分布的随机向量</span>
+</span></code></pre></div>
+</li>
+<li>
+<p><strong>四则运算</strong>：MATLAB 支持<code>矩阵运算</code>和<code>元素级运算</code>。这是初学者<code>非常容易混淆</code>的地方</p>
 <ul>
-<li><strong>矩阵的转置</strong>：</li>
+<li><strong>矩阵运算（Matrix Operations）</strong>：<ul>
+<li><code>+</code>加法,<code>-</code>减法：要求两个矩阵的维度完全相同</li>
+<li><code>*</code>乘法：标准的矩阵乘法。要求第一个矩阵的列数等于第二个矩阵的行数</li>
+<li><code>/</code>右除,<code>\</code>左除：用于求解线性方程组，例如<code>x = A \ b</code>求解 $Ax=b$，对于初学者，可以先简单理解为矩阵的除法，但其数学含义更复杂</li>
+<li><code>^</code>幂：矩阵的乘方，例如<code>A^2</code>表示 A*A，只适用于方阵
+  <div class="language-matlab highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="n">B</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="mi">6</span><span class="p">];</span><span class="w"> </span><span class="c">% 注意维度，不能与 A 直接相加减，也不能 A*B，因为 A(2x2), B(2x1) 内维不匹配</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="n">A_plus_A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">A</span><span class="p">;</span><span class="w"> </span><span class="c">% 矩阵加法</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="c">% A_plus_B = A + B; % 错误，维度不匹配</span>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="n">A_times_A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">A</span><span class="p">;</span><span class="w"> </span><span class="c">% 矩阵乘法 A*A</span>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="n">A_times_B</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="mi">6</span><span class="p">];</span><span class="w"> </span><span class="c">% 矩阵乘法 A*B (2x2 * 2x1 = 2x1)</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="c">% B_times_A = B * A; % 错误，维度不匹配</span>
+</span><span id="__span-9-10"><a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>
+</span><span id="__span-9-11"><a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a><span class="c">% 求解 A * x = [1; 1]</span>
+</span><span id="__span-9-12"><a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a><span class="n">x</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">\</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="mi">1</span><span class="p">];</span>
+</span></code></pre></div></li>
 </ul>
-<p><code>matlab
-  F = A';  % 矩阵转置</code></p>
+</li>
+<li><strong>元素级运算（Element-wise Operations）</strong>：<ul>
+<li><code>.*</code>元素级乘法</li>
+<li><code>./</code>元素级右除</li>
+<li><code>.\</code>元素级左除</li>
+<li><code>^</code>元素级乘方</li>
+<li>这些运算要求两个矩阵的维度完全相同（或者其中一个是标量）。默认会将运算符点到点地应用到两个矩阵对应位置的元素上</li>
+</ul>
+</li>
+<li><strong>矩阵与标量的运算</strong>：<ul>
+<li>标量可以与矩阵直接进行<code>+</code>,<code>-</code>,<code>*</code>,<code>/</code>,<code>^</code>运算。这时，标量会自动与矩阵的每一个元素进行运算
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="n">B_elem</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">;</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">];</span><span class="w"> </span><span class="c">% 维度与 A 相同</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="n">A_elem_times_B_elem</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">.*</span><span class="w"> </span><span class="n">B_elem</span><span class="p">;</span><span class="w"> </span><span class="c">% [1*5, 2*6; 3*7, 4*8] = [5, 12; 21, 32]</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="n">A_elem_power_2</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">.^</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c">% [1^2, 2^2; 3^2, 4^2] = [1, 4; 9, 16]</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="c">% A_matrix_power_2 = A ^ 2; % 矩阵乘方 A*A</span>
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>
+</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span>
+</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a><span class="n">A_plus_3</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="c">% [1+3, 2+3; 3+3, 4+3] = [4, 5; 6, 7]</span>
+</span><span id="__span-10-11"><a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a><span class="n">A_times_2</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c">% [1*2, 2*2; 3*2, 4*2] = [2, 4; 6, 8]</span>
+</span><span id="__span-10-12"><a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a><span class="n">A_power_2_scalar</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c">% 矩阵乘方 A*A</span>
+</span><span id="__span-10-13"><a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a><span class="n">A_elem_power_2_scalar</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="w"> </span><span class="o">.^</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c">% 元素级乘方 A.^2</span>
+</span></code></pre></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">易错点：矩阵乘法<code>*</code>与元素级乘法<code>.*</code></p>
+<p><code>*</code>是标准的矩阵乘法，需要满足矩阵乘法的维度规则。<code>.*</code>是元素级乘法，只需要两个矩阵维度相同。当你打算让两个维度相同的矩阵对应元素相乘时，切记要使用点乘 .<code>*!</code>点除<code>./</code>和点乘方<code>.^</code>同理。</p>
+</div>
 <ul>
-<li><strong>矩阵与标量的四则运算</strong>：支持矩阵与标量的直接运算。</li>
-</ul>
-<p><code>matlab
-  G = A + 3;  % 每个元素加3</code></p>
-<h4 id="124">1.2.4 矩阵下标与访问</h4>
+<li>
+<p><strong>矩阵的转置</strong>：</p>
 <ul>
-<li><strong>下标访问</strong>：MATLAB采用1基索引访问矩阵中的元素。</li>
+<li>使用单引号<code>'</code>进行共轭转置（对于实数矩阵来说就是简单的行列互换）</li>
+<li>使用点加单引号<code>.'</code>进行非共轭转置（对于包含复数的矩阵，<code>'</code>会同时进行共轭运算，而<code>.'</code>只进行行列互换）。对于初学者处理实数矩阵，<code>'</code>和<code>.'</code>效果一样</li>
 </ul>
-<p><code>matlab
-  element = A(1, 2);  % 访问第1行第2列的元素</code></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="n">FA</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="n">F</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="o">&#39;</span><span class="p">;</span><span class="w"> </span><span class="c">% A 的转置 [1, 3; 2, 4]</span>
+</span></code></pre></div>
+</li>
+</ul>
+<h3 id="132">1.3.2 矩阵下标与访问</h3>
+<p>理解如何访问和修改数组中的元素是进行数据处理的基础。MATLAB 提供了强大的索引机制。</p>
 <ul>
-<li><strong>切片操作</strong>：可以通过冒号（<code>:</code>）进行行列的选择。</li>
+<li>
+<p><strong>1-基索引</strong>：这是 MATLAB 与许多其他编程语言（如 C/C++, Java, Python 的列表/数组）<strong>最重要、最容易混淆的区别之一</strong>！MATLAB 数组的索引是从 1 开始的，而不是从 0 开始</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="n">v</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="mi">40</span><span class="p">];</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="n">first_element</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">v</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问第一个元素，结果是 10</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="n">third_element</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">v</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问第三个元素，结果是 30</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="c">% v(0) 或 v(5) 会导致错误</span>
+</span></code></pre></div>
+</li>
 </ul>
-<p><code>matlab
-  row = A(1, :);  % 获取第1行
-  col = A(:, 2);  % 获取第2列</code></p>
+<div class="admonition warning">
+<p class="admonition-title">注意：1-基索引</p>
+<p>无论你有无编程基础，请务必牢记：MATLAB 的数组索引是从 1 开始的！访问第一个元素是<code>array(1)</code>，访问第N个元素是<code>array(N)</code>。这与许多从0开始索引的语言习惯不同，是初学者常见的错误来源。</p>
+</div>
 <ul>
-<li><strong>逻辑索引</strong>：通过逻辑条件筛选矩阵元素。</li>
+<li>
+<p><strong>下标访问（行和列索引）</strong>：对于二维矩阵，使用<code>array(行索引, 列索引)</code>的形式访问元素</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="n">element</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问第 1 行第 2 列的元素，结果是 2</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="c">% 访问向量（一维数组）只需一个索引</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="n">v</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">];</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="n">element_v</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">v</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问向量的第 2 个元素，结果是 20</span>
+</span></code></pre></div>
+</li>
+<li>
+<p><strong>线性索引</strong>：MATLAB 矩阵也可以使用<strong>单个索引</strong>来访问，这时它是按照<strong>列优先</strong>的顺序进行计数</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">];</span><span class="w"> </span><span class="c">% 矩阵是 [1 2; 3 4]</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="c">% 线性索引顺序：1 -&gt; (1,1), 2 -&gt; (2,1), 3 -&gt; (1,2), 4 -&gt; (2,2)</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="n">element_linear_1</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问第 1 个元素 (第一列第一行)，结果是 1</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="n">element_linear_3</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span><span class="w"> </span><span class="c">% 访问第 3 个元素 (第二列第一行)，结果是 2</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="c">% 使用 A(:) 可以将整个矩阵按列展平为一个列向量</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="n">A_col_vector</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(:);</span><span class="w"> </span><span class="c">% 结果是 [1; 3; 2; 4]</span>
+</span></code></pre></div>
+</li>
 </ul>
-<p><code>matlab
-  filtered_data = A(A &gt; 2);  % 获取大于2的元素</code></p>
-<h4 id="125">1.2.5 程序结构</h4>
-<p>MATLAB支持标准的控制结构，如条件语句、循环等，用于实现复杂的程序逻辑。</p>
+<div class="admonition tip">
+<p class="admonition-title">理解线性索引</p>
+<p>线性索引有时很方便，但对于初学者来说可能会有点反直觉，因为它与行优先（许多其他语言的习惯）不同。不过，知道它的存在和工作原理（列优先）可以帮助你理解一些特定的 MATLAB 代码。记住就好啦(●'◡'●)</p>
+</div>
 <ul>
-<li><strong>条件语句</strong>：使用<code>if-else</code>结构来处理不同的条件。</li>
+<li><strong>切片操作（冒号<code>:</code>运算符）</strong>：冒号<code>:</code>是 MATLAB 中一个非常强大的运算符，常用于获取数组的子集（切片） <ul>
+<li>单独的冒号<code>:</code>表示该维度上的所有元素 </li>
+<li><code>start:step:end</code>表示从<code>start</code>到<code>end</code>，步长为<code>step</code>的序列。如果<code>step</code>是 1，可以省略，写成<code>start:end</code></li>
+<li><code>end</code>关键字表示该维度上的最后一个索引
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="n">A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">6</span><span class="p">;</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">];</span><span class="w"> </span><span class="c">% 3x3 矩阵</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="n">row_1</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="p">:);</span><span class="w"> </span><span class="c">% 获取第 1 行的所有元素，结果 [1, 2, 3]</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="n">col_2</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(:,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span><span class="w"> </span><span class="c">% 获取第 2 列的所有元素，结果 [2; 5; 8]</span>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="n">subset_A</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">:</span><span class="mi">3</span><span class="p">);</span><span class="w"> </span><span class="c">% 获取第 1 到 2 行，第 2 到 3 列的子矩阵，结果 [2, 3; 5, 6]</span>
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a>
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="n">first_two_rows</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="p">:);</span><span class="w"> </span><span class="c">% 获取前两行的所有元素</span>
+</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>
+</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="n">last_column</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">(:,</span><span class="w"> </span><span class="k">end</span><span class="p">);</span><span class="w"> </span><span class="c">% 获取最后一列的所有元素</span>
+</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a>
+</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="c">% 访问特定但不连续的行或列：使用一个包含所需索引的向量</span>
+</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a><span class="n">specific_rows</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">A</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">],</span><span class="w"> </span><span class="p">:);</span><span class="w"> </span><span class="c">% 获取第 1 行和第 3 行的所有元素，结果 [1, 2, 3; 7, 8, 9]</span>
+</span></code></pre></div></li>
 </ul>
-<p><code>matlab
-  if temperature &gt; 30
-      disp('炎热');
-  else
-      disp('温暖');
-  end</code></p>
+</li>
+<li><strong>逻辑索引</strong>：使用一个与原数组维度相同（或可扩展到相同维度）的逻辑数组来访问元素。逻辑数组中值为<code>true</code>的位置对应的原数组元素会被选中
+    <div class="language-matlab highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="n">data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">];</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="c">% 找到大于 15 的元素对应的逻辑数组</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="n">logical_idx</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">15</span><span class="p">;</span><span class="w"> </span><span class="c">% 结果 [false, true, false, true, false]</span>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="c">% 使用逻辑数组进行索引</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="n">filtered_data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">(</span><span class="n">logical_idx</span><span class="p">);</span><span class="w"> </span><span class="c">% 结果 [20, 30] - 只取出了 logical_idx 中为 true 对应位置的元素</span>
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="c">% 更常见的写法是将条件直接放在括号里</span>
+</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="n">large_elements</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">15</span><span class="p">);</span><span class="w"> </span><span class="c">% 结果 [20, 30]</span>
+</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a>
+</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="c">% 也可以用于修改元素</span>
+</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a><span class="n">data</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c">% 将所有小于 10 的元素设置为 0， data 变为 [10, 20, 0, 30, 15]</span>
+</span></code></pre></div></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">逻辑索引的应用</p>
+<p>逻辑索引是 MATLAB 中非常高效和简洁的数据筛选方式，避免了使用循环来逐个判断和提取元素。对于有经验的程序员来说，这类似于其他语言中的过滤操作，但在 MATLAB 语法中是直接通过索引实现的。</p>
+</div>
+<h2 id="14">1.4 程序控制结构与函数</h2>
+<p>MATLAB 支持标准的编程控制结构，允许根据条件执行代码或重复执行代码块。</p>
+<h3 id="141">1.4.1 条件语句：</h3>
+<p>条件语句：根据表达式的值来决定执行哪个代码块
+  - <code>if condition ... end</code>：如果条件为真，则执行代码块
+  - <code>if condition... else... end</code>：如果条件为真,执行<code>if</code>块，否则执行<code>else</code>块
+  - <code>if condition1... elseif condition2... else... end</code>：按顺序检查条件，执行第一个为真的条件块，如果所有条件都为假则执行<code>else</code>块</p>
+<div class="language-text highlight"><pre><span></span><code>```matlab
+temperature = 25;
+
+if temperature &gt; 30
+    disp(&#39;天气炎热&#39;);
+elseif temperature &gt; 20 % 注意：这是如果 temperature 不大于 30 的前提下检查
+    disp(&#39;天气温暖&#39;);
+else
+    disp(&#39;天气凉爽或寒冷&#39;);
+end
+```
+</code></pre></div>
 <ul>
-<li><strong>循环</strong>：通过<code>for</code>和<code>while</code>实现循环。</li>
-</ul>
-<p><code>matlab
-  % 使用for循环遍历数组
-  for i = 1:length(temperature)
-      disp(temperature(i));
-  end</code></p>
-<h4 id="126">1.2.6 绘图：二维与三维平面</h4>
-<p>MATLAB强大的绘图功能使其成为环境数据可视化的理想工具。</p>
+<li>
+<p><strong>比较运算符</strong>：<code>==</code>(等于),<code>~=</code>(不等于),<code>&gt;</code>(大于),<code>&lt;</code>(小于),<code>&gt;=</code>(大于等于),<code>&lt;=</code>(小于等于)</p>
+</li>
+<li>
+<p><strong>逻辑运算符</strong>：</p>
 <ul>
-<li><strong>二维绘图</strong>：可以使用<code>plot</code>函数进行简单的二维线性绘图。</li>
+<li><code>&amp;&amp;</code>(逻辑与 AND) 和<code>||</code>(逻辑或 OR)：用于连接两个<strong>标量</strong>逻辑表达式，具有短路（short-circuiting）特性</li>
+<li><code>&amp;</code>(元素级逻辑与) 和<code>|</code>(元素级逻辑或)：用于对<strong>同维度</strong>的逻辑数组进行逐元素逻辑运算</li>
+<li><code>~</code>(逻辑非 NOT)：对逻辑数组中的每个元素取反
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="n">a</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="p">(</span><span class="n">b</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="c">% 检查两个标量条件是否都为真</span>
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="w">    </span><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;条件都满足&#39;</span><span class="p">);</span>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="k">end</span>
+</span><span id="__span-18-5"><a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>
+</span><span id="__span-18-6"><a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a><span class="n">logic_array1</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">];</span>
+</span><span id="__span-18-7"><a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="n">logic_array2</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="p">];</span>
+</span><span id="__span-18-8"><a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a><span class="n">result_and</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">logic_array1</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">logic_array2</span><span class="p">;</span><span class="w"> </span><span class="c">% 结果 [true, false, false] (逐元素 AND)</span>
+</span></code></pre></div></li>
 </ul>
-<p><code>matlab
-  x = linspace(0, 10, 100);
-  y = sin(x);
-  plot(x, y);  % 绘制正弦曲线
-  title('正弦波');
-  xlabel('x轴');
-  ylabel('y轴');</code></p>
-<ul>
-<li><strong>三维绘图</strong>：<code>meshgrid</code>和<code>surf</code>等函数可以绘制三维图形，适合展示复杂的数据集。</li>
+</li>
 </ul>
-<p><code>matlab
-  [X, Y] = meshgrid(-5:0.25:5, -5:0.25:5);
-  Z = X.^2 + Y.^2;  % 创建一个抛物面
-  surf(X, Y, Z);  % 绘制三维曲面图
-  title('三维抛物面');</code></p>
-<hr />
-<h3 id="13">1.3 环境数据导入与预处理</h3>
-<p>此部分内容与前面提到的基础数据类型和矩阵操作结合，在数据导入时利用矩阵运算和逻辑操作进行数据清洗和预处理：</p>
-<pre><code class="language-matlab">% 导入数据并进行简单处理
-data = readtable('environment_data.csv');
-clean_data = data(data.Temperature &gt; -50, :);  % 清理不合格的温度数据
-</code></pre>
-<h3 id="131">1.3.1 多源数据导入方法</h3>
-<p>MATLAB提供了多种方法导入不同格式的环境数据。常见的数据类型和推荐函数如下：</p>
+<div class="admonition warning">
+<p class="admonition-title">易混淆点：<code>&amp;&amp;</code>/<code>||</code>vs<code>&amp;</code>/<code>|</code></p>
+<p>对于有其他语言经验的朋友，<code>&amp;&amp;</code>/<code>||</code>和<code>&amp;</code>/<code>|</code>的区别需要注意。<code>&amp;&amp;</code>/<code>||</code>只用于<strong>连接标量逻辑表达式</strong>，并有短路特性（类似 C/Java/Python 的<code>&amp;&amp;</code>/<code>||</code>）。而<code>&amp;</code>/<code>|</code>用于<strong>数组的逐元素逻辑运算</strong>，总是评估两个操作数。在条件判断<code>if</code>语句中，通常使用<code>&amp;&amp;</code>和<code>||</code>。</p>
+</div>
+<h3 id="142">1.4.2 循环语句</h3>
+<p>循环语句：重复执行一段代码块
+  - <code>for loop_var = sequence ... end</code>：按照<code>sequence</code>中的元素顺序，逐一将元素赋值给<code>loop_var</code>并执行循环体。<code>sequence</code>通常是一个数值序列（例如<code>1:10</code>或<code>[1, 3, 5]</code>）
+  - <code>while condition ... end</code>：当<code>condition</code>为真时重复执行循环体，直到<code>condition</code>为假</p>
+<div class="language-text highlight"><pre><span></span><code>```matlab
+% 使用 for 循环遍历数值序列
+for i = 1:5
+    disp([&#39;循环次数: &#39;, num2str(i)]); % num2str() 将数字转为字符串用于拼接
+end
+
+% 使用 for 循环遍历数组元素（不推荐直接用于对数组进行运算，优先向量化）
+data = [10, 20, 30];
+for value = data
+    disp([&#39;元素值: &#39;, num2str(value)]);
+end
+
+% 使用 while 循环
+count = 1;
+while count &lt;= 3
+    disp([&#39;计数: &#39;, num2str(count)]);
+    count = count + 1; % 切记在 while 循环中更新条件，否则可能死循环
+end
+```
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">优先向量化，避免不必要的循环</p>
+<p>在 MATLAB 中，很多操作都可以直接在整个数组上进行（如<code>A + B</code>,<code>sin(x)</code>,<code>max(data)</code>）。这种向量化操作通常比使用<code>for</code>或<code>while</code>循环遍历数组效率更高、代码更简洁。对于有循环习惯的朋友，学习如何“向量化”你的代码是提高 MATLAB 编程效率的关键。</p>
+</div>
+<h3 id="143">1.4.3 函数的定义与使用</h3>
+<p><code>函数</code>就是将一段代码组织成可重用的模块。通常在一个单独的<code>.m</code>文件中定义</p>
+<p><div class="language-matlab highlight"><span class="filename">示例函数定义（AI的勿喷）</span><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="c">% --- 示例：定义一个简单的函数（通常保存在一个同名文件 mySquare.m 中）---</span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="c">% function [输出参数列表] = 函数名(输入参数列表)</span>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="c">%   % 函数体</span>
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="c">%   ...</span>
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="c">%   % 为输出参数赋值</span>
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="c">% end</span>
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a>
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="k">function</span><span class="w"> </span>y<span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nf">mySquare</span><span class="p">(</span>x<span class="p">)</span>
+</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="w">  </span><span class="c">% 这个函数计算输入值的平方</span>
+</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="w">  </span><span class="n">y</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">.^</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c">% 注意这里使用 .^ 使函数可以处理向量或矩阵输入</span>
+</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="k">end</span>
+</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a>
+</span><span id="__span-20-13"><a id="__codelineno-20-13" name="__codelineno-20-13" href="#__codelineno-20-13"></a><span class="c">% 在命令行或脚本中调用函数</span>
+</span><span id="__span-20-14"><a id="__codelineno-20-14" name="__codelineno-20-14" href="#__codelineno-20-14"></a><span class="c">% result = mySquare(5);    % result = 25</span>
+</span><span id="__span-20-15"><a id="__codelineno-20-15" name="__codelineno-20-15" href="#__codelineno-20-15"></a><span class="c">% array_result = mySquare([1, 2, 3]); % array_result = [1, 4, 9]</span>
+</span></code></pre></div>
+理解函数的输入输出、局部工作空间等概念，有助于组织大型程序。</p>
+<h2 id="15">1.5 数据导入与初步处理</h2>
+<p>由于第一部分的数据可视化与建模分析的实践情景与环境工程相关，遂以此展开指北。真实世界的环境数据往往来自不同来源，格式多样，且常包含错误、异常值（Outliers）或缺失值（Missing Values）。因此，<strong>数据导入</strong>和<strong>数据预处理（数据清洗和质量控制）</strong>是进行环境数据分析中至关重要的第一步。这部分内容将结合前面介绍的基础数据类型和矩阵操作来进行。</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="c">% 示例：导入表格数据并进行简单过滤</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>
+</span><span id="__span-21-3"><a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="c">% 假设有一个名为 &#39;environment_data.csv&#39; 的 CSV 文件，</span>
+</span><span id="__span-21-4"><a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="c">% 其中包含至少名为 &#39;Temperature&#39; 的一列数据</span>
+</span><span id="__span-21-5"><a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="c">% 这里的 &#39;environment_data.csv&#39; 只是一个假想文件名，你要根据实际情况替换为你的文件名</span>
+</span><span id="__span-21-6"><a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="c">% data = readtable(&#39;environment_data.csv&#39;);</span>
+</span><span id="__span-21-7"><a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>
+</span><span id="__span-21-8"><a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="c">% 假设 data 是一个已经导入的表格（Table 类型）</span>
+</span><span id="__span-21-9"><a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a><span class="c">% 例如，手动创建一个简单表格用于演示</span>
+</span><span id="__span-21-10"><a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a><span class="n">Time</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">datetime</span><span class="p">(</span><span class="mi">2023</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nb">hours</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">);</span>
+</span><span id="__span-21-11"><a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a><span class="n">Temperature</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mf">10.5</span><span class="p">,</span><span class="w"> </span><span class="mf">11.2</span><span class="p">,</span><span class="w"> </span><span class="mf">9.8</span><span class="p">,</span><span class="w"> </span><span class="mf">120.0</span><span class="p">,</span><span class="w"> </span><span class="mf">10.1</span><span class="p">,</span><span class="w"> </span><span class="nb">NaN</span><span class="p">];</span><span class="w"> </span><span class="c">% 包含一个异常值 120 和一个缺失值 NaN</span>
+</span><span id="__span-21-12"><a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a><span class="n">data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">table</span><span class="p">(</span><span class="n">Time</span><span class="o">&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">Temperature</span><span class="o">&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;VariableNames&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="s">&#39;Time&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;Temperature&#39;</span><span class="p">});</span>
+</span><span id="__span-21-13"><a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;原始数据表格:&#39;</span><span class="p">);</span>
+</span><span id="__span-21-14"><a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a><span class="nb">disp</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+</span><span id="__span-21-15"><a id="__codelineno-21-15" name="__codelineno-21-15" href="#__codelineno-21-15"></a>
+</span><span id="__span-21-16"><a id="__codelineno-21-16" name="__codelineno-21-16" href="#__codelineno-21-16"></a><span class="c">% 进行简单的数据清洗：删除温度高于某个阈值（例如 50℃）的行</span>
+</span><span id="__span-21-17"><a id="__codelineno-21-17" name="__codelineno-21-17" href="#__codelineno-21-17"></a><span class="c">% data.Temperature 访问 Temperature 这一列数据 (一个数值向量)</span>
+</span><span id="__span-21-18"><a id="__codelineno-21-18" name="__codelineno-21-18" href="#__codelineno-21-18"></a><span class="c">% data.Temperature &gt; 50 创建一个逻辑数组 (Logical Array)，标记哪些行的温度 &gt; 50</span>
+</span><span id="__span-21-19"><a id="__codelineno-21-19" name="__codelineno-21-19" href="#__codelineno-21-19"></a><span class="c">% data(逻辑数组, :) 使用逻辑索引选择符合条件的行 (冒号 : 表示选择所有列)</span>
+</span><span id="__span-21-20"><a id="__codelineno-21-20" name="__codelineno-21-20" href="#__codelineno-21-20"></a><span class="n">cleaned_high_temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="p">:);</span>
+</span><span id="__span-21-21"><a id="__codelineno-21-21" name="__codelineno-21-21" href="#__codelineno-21-21"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;清洗掉高温异常值后的数据:&#39;</span><span class="p">);</span>
+</span><span id="__span-21-22"><a id="__codelineno-21-22" name="__codelineno-21-22" href="#__codelineno-21-22"></a><span class="nb">disp</span><span class="p">(</span><span class="n">cleaned_high_temp</span><span class="p">);</span>
+</span><span id="__span-21-23"><a id="__codelineno-21-23" name="__codelineno-21-23" href="#__codelineno-21-23"></a>
+</span><span id="__span-21-24"><a id="__codelineno-21-24" name="__codelineno-21-24" href="#__codelineno-21-24"></a><span class="c">% 清洗掉缺失值 (NaN) 的行</span>
+</span><span id="__span-21-25"><a id="__codelineno-21-25" name="__codelineno-21-25" href="#__codelineno-21-25"></a><span class="c">% isnan(data.Temperature) 创建一个逻辑数组，标记哪些温度是 NaN</span>
+</span><span id="__span-21-26"><a id="__codelineno-21-26" name="__codelineno-21-26" href="#__codelineno-21-26"></a><span class="c">% ~isnan(...) 对逻辑数组取反，标记哪些温度不是 NaN (即是有效值)</span>
+</span><span id="__span-21-27"><a id="__codelineno-21-27" name="__codelineno-21-27" href="#__codelineno-21-27"></a><span class="n">cleaned_missing</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">(</span><span class="o">~</span><span class="nb">isnan</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="p">),</span><span class="w"> </span><span class="p">:);</span>
+</span><span id="__span-21-28"><a id="__codelineno-21-28" name="__codelineno-21-28" href="#__codelineno-21-28"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;清洗掉缺失值后的数据:&#39;</span><span class="p">);</span>
+</span><span id="__span-21-29"><a id="__codelineno-21-29" name="__codelineno-21-29" href="#__codelineno-21-29"></a><span class="nb">disp</span><span class="p">(</span><span class="n">cleaned_missing</span><span class="p">);</span>
+</span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">为什么使用 Table 类型导入表格数据？</p>
+<p><code>readtable</code> 函数导入的数据默认是 <code>table</code> 类型，而不是基础数值矩阵。<code>table</code> 类型特别适合存储混合类型（数字、文本、时间等）的表格数据，并且可以使用列名 <code>.ColumnName</code> 来方便地访问和操作特定列的数据，这在处理监测数据时非常方便，也更容易理解。</p>
+</div>
+<h3 id="151">1.5.1 多源数据导入方法</h3>
+<p>环境数据可能来自各种仪器、模型输出或数据库，格式多种多样。了解如何导入不同格式的数据是进行分析的前提。</p>
 <table>
 <thead>
 <tr>
-<th>数据类型</th>
-<th>推荐函数</th>
-<th>环境工程应用场景</th>
+<th style="text-align: left;">数据类型</th>
+<th style="text-align: left;">推荐函数    </th>
+<th style="text-align: left;">环境工程常见应用场景</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Excel</td>
-<td><code>readtable</code></td>
-<td>监测站小时级数据</td>
+<td style="text-align: left;">Excel 文件 (.xls, .xlsx)</td>
+<td style="text-align: left;"><code>readtable</code>, <code>xlsread</code></td>
+<td style="text-align: left;">监测站小时/日数据记录、实验数据、调查问卷结果</td>
 </tr>
 <tr>
-<td>NetCDF</td>
-<td><code>ncread</code></td>
-<td>气候模型输出</td>
+<td style="text-align: left;">CSV 文件 (.csv)</td>
+<td style="text-align: left;"><code>readtable</code>, <code>csvread</code></td>
+<td style="text-align: left;">导出的数据库数据、传感器记录</td>
 </tr>
 <tr>
-<td>HDF5</td>
-<td><code>h5read</code></td>
-<td>卫星遥感数据</td>
+<td style="text-align: left;">文本文件 (.txt, .dat)</td>
+<td style="text-align: left;"><code>readtable</code>, <code>importdata</code>, <code>textscan</code></td>
+<td style="text-align: left;">特定格式的输出数据、报告文件</td>
+</tr>
+<tr>
+<td style="text-align: left;">NetCDF 文件 (.nc)</td>
+<td style="text-align: left;"><code>ncread</code>, <code>ncdisp</code></td>
+<td style="text-align: left;">大气模型/气候模型输出、卫星遥感产品</td>
+</tr>
+<tr>
+<td style="text-align: left;">HDF5 文件 (.h5)</td>
+<td style="text-align: left;"><code>h5read</code>, <code>h5disp</code></td>
+<td style="text-align: left;">卫星遥感数据、复杂模型输出</td>
+</tr>
+<tr>
+<td style="text-align: left;">影像文件 (.tif, .jpg, .png 等)</td>
+<td style="text-align: left;"><code>imread</code>    </td>
+<td style="text-align: left;">遥感影像、无人机航拍图</td>
 </tr>
 </tbody>
 </table>
-<p>例如，使用<code>ncread</code>导入NASA的MERRA-2气溶胶数据：</p>
-<pre><code class="language-matlab">% 导入MERRA-2气溶胶数据（需先下载.nc文件）
-ncfile = 'MERRA2_400.tavg1_2d_aer_Nx.20200101.nc4';
-PM25 = ncread(ncfile, 'PM25');  % 读取PM2.5变量
-lat = ncread(ncfile, 'lat');    % 纬度坐标
-lon = ncread(ncfile, 'lon');    % 经度坐标
-</code></pre>
-<h3 id="132">1.3.2 数据质量控制</h3>
-<p>在处理环境数据时，常常需要进行数据质量控制，如异常值检测。以下是一个基于Grubbs检验的异常值检测示例：</p>
-<pre><code class="language-matlab">% 使用Grubbs检验检测异常值
-function [clean_data, outliers] = grubbs_test(data, alpha)
-    G = abs(data - mean(data)) / std(data);
-    critical_value = tinv(1-alpha/(2*length(data)), length(data)-2);
-    threshold = (length(data)-1)/sqrt(length(data)) * ...
-                sqrt(critical_value^2/(length(data)-2+critical_value^2));
-    outliers = find(G &gt; threshold);
-    clean_data = data; 
-    clean_data(outliers) = NaN;
-end
-</code></pre>
+<p><strong>使用 <code>readtable</code> 导入 Excel 或 CSV 文件</strong>：对于规则的表格数据，<code>readtable</code> 是一个非常推荐的函数，它能自动识别数据类型并创建 <code>table</code> 对象。</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="c">% 示例：使用 readtable 导入 Excel 文件</span>
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a><span class="c">% 假设有一个名为 &#39;monitoring_data.xlsx&#39; 的 Excel 文件</span>
+</span><span id="__span-22-3"><a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a><span class="c">% 请将文件名替换为您实际的文件路径</span>
+</span><span id="__span-22-4"><a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a><span class="c">% monitor_data_table = readtable(&#39;monitoring_data.xlsx&#39;);</span>
+</span><span id="__span-22-5"><a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a><span class="c">% disp(&#39;从 Excel 导入的数据表结构：&#39;);</span>
+</span><span id="__span-22-6"><a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a><span class="c">% disp(monitor_data_table);</span>
+</span></code></pre></div>
+<p><strong>使用 <code>ncread</code> 导入 NetCDF 数据</strong>：NetCDF 是科学领域常用的数据格式，特别是在气象、海洋、气候模型和遥感数据中。</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="c">% 示例：导入 MERRA-2 气溶胶数据（需先下载对应的 .nc4 文件）</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="c">% MERRA-2 是 NASA 提供的一个全球大气再分析数据集</span>
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="n">ncfile</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&#39;MERRA2_400.tavg1_2d_aer_Nx.20200101.nc4&#39;</span><span class="p">;</span><span class="w"> </span><span class="c">% 示意文件名</span>
+</span><span id="__span-23-4"><a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>
+</span><span id="__span-23-5"><a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a><span class="c">% === 重要步骤：查看 NetCDF 文件结构 ===</span>
+</span><span id="__span-23-6"><a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a><span class="c">% 在读取前，通常需要使用 ncdisp 查看文件中有哪些变量、维度和属性，以确定要读取的数据名称。</span>
+</span><span id="__span-23-7"><a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a><span class="c">% ncdisp(ncfile); % 运行这行代码会显示文件详细结构</span>
+</span><span id="__span-23-8"><a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>
+</span><span id="__span-23-9"><a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a><span class="c">% 根据 ncdisp 的输出，读取特定的变量</span>
+</span><span id="__span-23-10"><a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a><span class="c">% 假设文件中有名为 &#39;PM25&#39; (颗粒物浓度), &#39;lat&#39; (纬度), &#39;lon&#39; (经度) 的变量</span>
+</span><span id="__span-23-11"><a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a><span class="c">% PM25 = ncread(ncfile, &#39;PM25&#39;); % 读取 PM2.5 浓度数据</span>
+</span><span id="__span-23-12"><a id="__codelineno-23-12" name="__codelineno-23-12" href="#__codelineno-23-12"></a><span class="c">% lat = ncread(ncfile, &#39;lat&#39;);   % 读取纬度坐标</span>
+</span><span id="__span-23-13"><a id="__codelineno-23-13" name="__codelineno-23-13" href="#__codelineno-23-13"></a><span class="c">% lon = ncread(ncfile, &#39;lon&#39;);  % 读取经度坐标</span>
+</span><span id="__span-23-14"><a id="__codelineno-23-14" name="__codelineno-23-14" href="#__codelineno-23-14"></a>
+</span><span id="__span-23-15"><a id="__codelineno-23-15" name="__codelineno-23-15" href="#__codelineno-23-15"></a><span class="c">% disp(&#39;导入的 PM2.5 数据的尺寸 (维度):&#39;);</span>
+</span><span id="__span-23-16"><a id="__codelineno-23-16" name="__codelineno-23-16" href="#__codelineno-23-16"></a><span class="c">% disp(size(PM25)); % 显示数据的维度，例如 [经度点数, 纬度点数, 时间步数]</span>
+</span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">导入大型科学数据文件 (.nc, .h5)</p>
+<p>对于 NetCDF 或 HDF5 这类大型科学数据文件，通常包含多个变量和复杂的维度信息。<code>ncdisp</code> 和 <code>h5disp</code> 是你了解文件内容和结构的必备工具，先用它们查看文件，再用 <code>ncread</code> 或 <code>h5read</code> 精确读取需要的变量。</p>
+</div>
+<h3 id="152">1.5.2 数据质量控制与清洗</h3>
+<p>获取数据后，进行质量控制和清洗是确保分析结果可靠的关键步骤。</p>
+<ul>
+<li>
+<p><strong>处理异常值（Outliers）</strong>：异常值是数据中与正常值范围差异较大的数据点，可能是由于仪器故障、记录错误或环境突变引起。简单的方法包括：</p>
+<ul>
+<li><strong>基于物理或经验阈值过滤：</strong> 根据对测量数据的了解，设定合理的上下限。</li>
+<li><strong>基于统计学方法过滤：</strong> 例如，剔除超出平均值正负 N 倍标准差范围的数据点。</li>
+</ul>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="c">% 示例 1：基于阈值过滤异常值 (接前面 data 表格的例子)</span>
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a><span class="c">% 假设正常的温度范围是 -20 到 40 摄氏度</span>
+</span><span id="__span-24-3"><a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a><span class="n">valid_min_temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="o">-</span><span class="mi">20</span><span class="p">;</span>
+</span><span id="__span-24-4"><a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a><span class="n">valid_max_temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">40</span><span class="p">;</span>
+</span><span id="__span-24-5"><a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a>
+</span><span id="__span-24-6"><a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a><span class="c">% 找到温度在有效范围内的数据（Logical Indexing）</span>
+</span><span id="__span-24-7"><a id="__codelineno-24-7" name="__codelineno-24-7" href="#__codelineno-24-7"></a><span class="n">is_valid_temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">valid_min_temp</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">valid_max_temp</span><span class="p">);</span>
+</span><span id="__span-24-8"><a id="__codelineno-24-8" name="__codelineno-24-8" href="#__codelineno-24-8"></a>
+</span><span id="__span-24-9"><a id="__codelineno-24-9" name="__codelineno-24-9" href="#__codelineno-24-9"></a><span class="c">% 结合前面处理 NaN 的方法，获得最终有效数据行的逻辑索引</span>
+</span><span id="__span-24-10"><a id="__codelineno-24-10" name="__codelineno-24-10" href="#__codelineno-24-10"></a><span class="n">final_valid_rows_idx</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">is_valid_temp</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">~</span><span class="nb">isnan</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="p">);</span>
+</span><span id="__span-24-11"><a id="__codelineno-24-11" name="__codelineno-24-11" href="#__codelineno-24-11"></a>
+</span><span id="__span-24-12"><a id="__codelineno-24-12" name="__codelineno-24-12" href="#__codelineno-24-12"></a><span class="c">% 提取有效数据行到一个新的表格</span>
+</span><span id="__span-24-13"><a id="__codelineno-24-13" name="__codelineno-24-13" href="#__codelineno-24-13"></a><span class="n">cleaned_data_filtered</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">(</span><span class="n">final_valid_rows_idx</span><span class="p">,</span><span class="w"> </span><span class="p">:);</span>
+</span><span id="__span-24-14"><a id="__codelineno-24-14" name="__codelineno-24-14" href="#__codelineno-24-14"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;经过阈值过滤和缺失值清洗后的数据:&#39;</span><span class="p">);</span>
+</span><span id="__span-24-15"><a id="__codelineno-24-15" name="__codelineno-24-15" href="#__codelineno-24-15"></a><span class="nb">disp</span><span class="p">(</span><span class="n">cleaned_data_filtered</span><span class="p">);</span>
+</span><span id="__span-24-16"><a id="__codelineno-24-16" name="__codelineno-24-16" href="#__codelineno-24-16"></a>
+</span><span id="__span-24-17"><a id="__codelineno-24-17" name="__codelineno-24-17" href="#__codelineno-24-17"></a><span class="c">% 另一种方法：将异常值标识为 NaN 或删除</span>
+</span><span id="__span-24-18"><a id="__codelineno-24-18" name="__codelineno-24-18" href="#__codelineno-24-18"></a><span class="n">data_with_nan</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="p">;</span><span class="w"> </span><span class="c">% 创建温度列的副本</span>
+</span><span id="__span-24-19"><a id="__codelineno-24-19" name="__codelineno-24-19" href="#__codelineno-24-19"></a><span class="n">data_with_nan</span><span class="p">(</span><span class="o">~</span><span class="n">is_valid_temp</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">NaN</span><span class="p">;</span><span class="w"> </span><span class="c">% 将超出范围的值设置为 NaN</span>
+</span><span id="__span-24-20"><a id="__codelineno-24-20" name="__codelineno-24-20" href="#__codelineno-24-20"></a><span class="c">% disp(&#39;将异常值替换为 NaN 后的温度列:&#39;);</span>
+</span><span id="__span-24-21"><a id="__codelineno-24-21" name="__codelineno-24-21" href="#__codelineno-24-21"></a><span class="c">% disp(data_with_nan);</span>
+</span><span id="__span-24-22"><a id="__codelineno-24-22" name="__codelineno-24-22" href="#__codelineno-24-22"></a>
+</span><span id="__span-24-23"><a id="__codelineno-24-23" name="__codelineno-24-23" href="#__codelineno-24-23"></a><span class="c">% 示例 2：基于统计方法的简单异常值识别（例如，超出均值±3标准差）</span>
+</span><span id="__span-24-24"><a id="__codelineno-24-24" name="__codelineno-24-24" href="#__codelineno-24-24"></a><span class="c">% 注意：这种方法假设数据大致服从正态分布，且不适合本身变异性很大的数据</span>
+</span><span id="__span-24-25"><a id="__codelineno-24-25" name="__codelineno-24-25" href="#__codelineno-24-25"></a><span class="n">sample_data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="mi">14</span><span class="p">,</span><span class="w"> </span><span class="mi">12</span><span class="p">];</span><span class="w"> </span><span class="c">% 包含一个异常值 100</span>
+</span><span id="__span-24-26"><a id="__codelineno-24-26" name="__codelineno-24-26" href="#__codelineno-24-26"></a><span class="n">data_mean</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">mean</span><span class="p">(</span><span class="n">sample_data</span><span class="p">(</span><span class="o">~</span><span class="nb">isnan</span><span class="p">(</span><span class="n">sample_data</span><span class="p">)));</span><span class="w"> </span><span class="c">% 计算非 NaN 数据的均值</span>
+</span><span id="__span-24-27"><a id="__codelineno-24-27" name="__codelineno-24-27" href="#__codelineno-24-27"></a><span class="n">data_std</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">std</span><span class="p">(</span><span class="n">sample_data</span><span class="p">(</span><span class="o">~</span><span class="nb">isnan</span><span class="p">(</span><span class="n">sample_data</span><span class="p">)));</span><span class="w"> </span><span class="c">% 计算非 NaN 数据的标准差</span>
+</span><span id="__span-24-28"><a id="__codelineno-24-28" name="__codelineno-24-28" href="#__codelineno-24-28"></a><span class="n">threshold_std</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="c">% 设定标准差倍数</span>
+</span><span id="__span-24-29"><a id="__codelineno-24-29" name="__codelineno-24-29" href="#__codelineno-24-29"></a>
+</span><span id="__span-24-30"><a id="__codelineno-24-30" name="__codelineno-24-30" href="#__codelineno-24-30"></a><span class="c">% 识别异常值的逻辑索引</span>
+</span><span id="__span-24-31"><a id="__codelineno-24-31" name="__codelineno-24-31" href="#__codelineno-24-31"></a><span class="n">is_outlier_stat</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">abs</span><span class="p">(</span><span class="n">sample_data</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">data_mean</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">threshold_std</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">data_std</span><span class="p">;</span>
+</span><span id="__span-24-32"><a id="__codelineno-24-32" name="__codelineno-24-32" href="#__codelineno-24-32"></a><span class="c">% disp(&#39;基于均值+/-3标准差的异常值逻辑索引:&#39;);</span>
+</span><span id="__span-24-33"><a id="__codelineno-24-33" name="__codelineno-24-33" href="#__codelineno-24-33"></a><span class="c">% disp(is_outlier_stat); % 结果 [false, false, false, false, true, false, false]</span>
+</span><span id="__span-24-34"><a id="__codelineno-24-34" name="__codelineno-24-34" href="#__codelineno-24-34"></a>
+</span><span id="__span-24-35"><a id="__codelineno-24-35" name="__codelineno-24-35" href="#__codelineno-24-35"></a><span class="c">% 获取异常值的数值</span>
+</span><span id="__span-24-36"><a id="__codelineno-24-36" name="__codelineno-24-36" href="#__codelineno-24-36"></a><span class="n">outlier_values</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">sample_data</span><span class="p">(</span><span class="n">is_outlier_stat</span><span class="p">);</span><span class="w"> </span><span class="c">% 结果 [100]</span>
+</span></code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">数据质量控制的复杂性</p>
+<p>异常值检测和处理是数据清洗中的重要环节，上面只是展示了一些简单的方法。更复杂的场景可能需要结合专业知识、可视化检查、或者使用更高级的统计检验（如前面提到的 Grubbs 检验，或其他基于箱线图、聚类等方法）。选择哪种方法取决于数据类型、异常值的性质以及分析的目的。</p>
+</div>
+</li>
+<li>
+<p><strong>处理缺失值（Missing Values）</strong>：缺失值在环境数据中非常常见（如仪器故障、数据传输丢失）。在 MATLAB 中，数值类型的缺失值通常用 <code>NaN</code> (Not-a-Number) 表示。<code>table</code> 类型的数据也支持其他形式的缺失值。</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="c">% 示例：处理缺失值 (接前面 data 表格的例子)</span>
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="n">data_with_nan</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">data</span><span class="p">;</span><span class="w"> </span><span class="c">% 原始数据包含一个 NaN</span>
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a><span class="c">% 查找缺失值</span>
+</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="n">is_missing</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">isnan</span><span class="p">(</span><span class="n">data_with_human</span><span class="p">);</span><span class="w"> </span><span class="c">% 检查 data 表格中的每个元素是否为 NaN</span>
+</span><span id="__span-25-6"><a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a><span class="c">% 注意：对于 table 类型，isnan 检查的是其数值或逻辑列中的 NaN</span>
+</span><span id="__span-25-7"><a id="__codelineno-25-7" name="__codelineno-25-7" href="#__codelineno-25-7"></a>
+</span><span id="__span-25-8"><a id="__codelineno-25-8" name="__codelineno-25-8" href="#__codelineno-25-8"></a><span class="c">% 统计每列的缺失值数量</span>
+</span><span id="__span-25-9"><a id="__codelineno-25-9" name="__codelineno-25-9" href="#__codelineno-25-9"></a><span class="n">missing_counts</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">sum</span><span class="p">(</span><span class="nb">isnan</span><span class="p">(</span><span class="n">data_with_human</span><span class="p">));</span><span class="w"> </span><span class="c">% 对逻辑数组求和，得到每列的 NaN 数量</span>
+</span><span id="__span-25-10"><a id="__codelineno-25-10" name="__codelineno-25-10" href="#__codelineno-25-10"></a>
+</span><span id="__span-25-11"><a id="__codelineno-25-11" name="__codelineno-25-11" href="#__codelineno-25-11"></a><span class="c">% === 常用处理方法 ===</span>
+</span><span id="__span-25-12"><a id="__codelineno-25-12" name="__codelineno-25-12" href="#__codelineno-25-12"></a><span class="c">% 1. 删除包含缺失值的行 (或列)</span>
+</span><span id="__span-25-13"><a id="__codelineno-25-13" name="__codelineno-25-13" href="#__codelineno-25-13"></a><span class="n">data_rows_removed</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">rmmissing</span><span class="p">(</span><span class="n">data_with_nan</span><span class="p">);</span><span class="w"> </span><span class="c">% 删除含有 NaN 的行</span>
+</span><span id="__span-25-14"><a id="__codelineno-25-14" name="__codelineno-25-14" href="#__codelineno-25-14"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;删除缺失值行后的数据:&#39;</span><span class="p">);</span>
+</span><span id="__span-25-15"><a id="__codelineno-25-15" name="__codelineno-25-15" href="#__codelineno-25-15"></a><span class="nb">disp</span><span class="p">(</span><span class="n">data_rows_removed</span><span class="p">);</span>
+</span><span id="__span-25-16"><a id="__codelineno-25-16" name="__codelineno-25-16" href="#__codelineno-25-16"></a>
+</span><span id="__span-25-17"><a id="__codelineno-25-17" name="__codelineno-25-17" href="#__codelineno-25-17"></a><span class="c">% 2. 填充缺失值</span>
+</span><span id="__span-25-18"><a id="__codelineno-25-18" name="__codelineno-25-18" href="#__codelineno-25-18"></a><span class="c">% fillmissing 根据相邻值或其他方法填充 NaN</span>
+</span><span id="__span-25-19"><a id="__codelineno-25-19" name="__codelineno-25-19" href="#__codelineno-25-19"></a><span class="n">data_filled_linear</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">fillmissing</span><span class="p">(</span><span class="n">data_with_nan</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;linear&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 使用线性插值填充缺失值</span>
+</span><span id="__span-25-20"><a id="__codelineno-25-20" name="__codelineno-25-20" href="#__codelineno-25-20"></a><span class="c">% disp(&#39;使用线性插值填充缺失值后的数据:&#39;);</span>
+</span><span id="__span-25-21"><a id="__codelineno-25-21" name="__codelineno-25-21" href="#__codelineno-25-21"></a><span class="c">% disp(data_filled_linear);</span>
+</span><span id="__span-25-22"><a id="__codelineno-25-22" name="__codelineno-25-22" href="#__codelineno-25-22"></a>
+</span><span id="__span-25-23"><a id="__codelineno-25-23" name="__codelineno-25-23" href="#__codelineno-25-23"></a><span class="n">data_filled_mean</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">fillmissing</span><span class="p">(</span><span class="n">data_with_nan</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;constant&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">mean</span><span class="p">(</span><span class="n">data_with_nan</span><span class="p">.</span><span class="n">Temperature</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;omitnan&#39;</span><span class="p">));</span><span class="w"> </span><span class="c">% 使用非 NaN 数据的平均值填充</span>
+</span><span id="__span-25-24"><a id="__codelineno-25-24" name="__codelineno-25-24" href="#__codelineno-25-24"></a><span class="c">% disp(&#39;使用平均值填充缺失值后的数据:&#39;);</span>
+</span><span id="__span-25-25"><a id="__codelineno-25-25" name="__codelineno-25-25" href="#__codelineno-25-25"></a><span class="c">% disp(data_filled_mean);</span>
+</span><span id="__span-25-26"><a id="__codelineno-25-26" name="__codelineno-25-26" href="#__codelineno-25-26"></a>
+</span><span id="__span-25-27"><a id="__codelineno-25-27" name="__codelineno-25-27" href="#__codelineno-25-27"></a><span class="c">% 3. 在计算时忽略缺失值</span>
+</span><span id="__span-25-28"><a id="__codelineno-25-28" name="__codelineno-25-28" href="#__codelineno-25-28"></a><span class="c">% 许多 MATLAB 函数都有 &#39;omitnan&#39; 或类似选项来忽略计算中的 NaN</span>
+</span><span id="__span-25-29"><a id="__codelineno-25-29" name="__codelineno-25-29" href="#__codelineno-25-29"></a><span class="n">avg_temp_ignoring_nan</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">mean</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">Temperature</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;omitnan&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 计算忽略 NaN 后的平均温度</span>
+</span><span id="__span-25-30"><a id="__codelineno-25-30" name="__codelineno-25-30" href="#__codelineno-25-30"></a><span class="c">% disp([&#39;忽略缺失值后的平均温度: &#39;, num2str(avg_temp_ignoring_nan)]);</span>
+</span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">提示：<code>NaN</code> 的传播</p>
+<p>需要注意的是，大多数数学运算（如加、减、乘、除、求和、求平均等）在遇到 <code>NaN</code> 时，结果也会变成 <code>NaN</code>。如果你希望忽略 <code>NaN</code> 进行计算，需要使用支持 <code>omitnan</code> 选项的函数，或者先将 <code>NaN</code> 移除/填充。</p>
+</div>
+</li>
+</ul>
+<h2 id="16">1.6 数据可视化</h2>
+<p>MATLAB 以其强大的绘图功能而闻名，可以轻松地将数据可视化。</p>
+<h3 id="161">1.6.1 二维绘图基础</h3>
+<p>使用<code>plot</code>函数进行简单的二维线性绘图</p>
+<div class="language-text highlight"><pre><span></span><code>```matlab
+% 准备数据
+x = linspace(0, 2*pi, 100); % 创建从 0 到 2*pi 的 100 个等间距点
+y1 = sin(x);
+y2 = cos(x);
+
+% 绘制单条曲线
+figure; % 创建一个新的图形窗口
+plot(x, y1);
+title(&#39;正弦曲线&#39;); % 添加标题
+xlabel(&#39;x轴 (弧度)&#39;); % 添加 x 轴标签
+ylabel(&#39;y轴&#39;); % 添加 y 轴标签
+grid on; % 添加网格线
+
+% 在同一图上绘制多条曲线
+figure;
+plot(x, y1, &#39;b-&#39;, x, y2, &#39;r--&#39;); % 蓝色实线绘制 sin(x)，红色虚线绘制 cos(x)
+title(&#39;正弦与余弦曲线&#39;);
+xlabel(&#39;x&#39;);
+ylabel(&#39;幅值&#39;);
+legend(&#39;sin(x)&#39;, &#39;cos(x)&#39;); % 添加图例
+xlim([0, 2*pi]); % 设置 x 轴显示范围
+ylim([-1.5, 1.5]); % 设置 y 轴显示范围
+
+% 散点图等其他二维图类型
+% scatter(x, y1, &#39;o&#39;); % 绘制散点图
+% bar([1, 2, 3], [10, 20, 15]); % 绘制柱状图
+```
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">提示：figure 和 hold on</p>
+<p><code>figure</code>命令会创建并激活一个新的绘图窗口。如果你想在同一个坐标系中绘制多条曲线而不是覆盖之前的图，可以使用<code>hold on</code>命令，绘制完所有曲线后用<code>hold off</code>。</p>
+</div>
+<h3 id="162">1.6.2 绘制环境数据曲线案例</h3>
+<p>可视化是理解环境数据的第一步。前面的基础绘图介绍 (<code>plot</code>, <code>title</code>, <code>xlabel</code>, <code>ylabel</code>) 是核心。接下来结合实际数据绘制一副温度曲线，并展示一些常用的绘图细节设置。</p>
+<p><strong>案例 1：北京市2023年各月平均温度变化</strong></p>
+<p>这个案例使用了真实的北京市2023年各月平均温度数据，通过绘制折线图展示了温度随时间的变化。
+<div class="language-matlab highlight"><span class="filename">案例 1</span><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="c">% 北京市2023年各月平均温度(℃)</span>
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a><span class="c">% 数据的来源可能来自气象站的长期监测记录，经过月平均计算得到</span>
+</span><span id="__span-27-3"><a id="__codelineno-27-3" name="__codelineno-27-3" href="#__codelineno-27-3"></a><span class="n">months</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="mi">12</span><span class="p">;</span><span class="w"> </span><span class="c">% 月份从 1 到 12，这是一个数值向量 (1x12 数组)</span>
+</span><span id="__span-27-4"><a id="__codelineno-27-4" name="__codelineno-27-4" href="#__codelineno-27-4"></a><span class="n">temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="o">-</span><span class="mf">3.2</span><span class="p">,</span><span class="w"> </span><span class="mf">0.7</span><span class="p">,</span><span class="w"> </span><span class="mf">7.6</span><span class="p">,</span><span class="w"> </span><span class="mf">15.2</span><span class="p">,</span><span class="w"> </span><span class="mf">21.8</span><span class="p">,</span><span class="w"> </span><span class="mf">26.1</span><span class="p">,</span><span class="w"> </span><span class="k">...</span><span class="c"> % 这是温度数据，也是一个数值向量</span>
+</span><span id="__span-27-5"><a id="__codelineno-27-5" name="__codelineno-27-5" href="#__codelineno-27-5"></a><span class="w">         </span><span class="mf">27.9</span><span class="p">,</span><span class="w"> </span><span class="mf">26.4</span><span class="p">,</span><span class="w"> </span><span class="mf">21.5</span><span class="p">,</span><span class="w"> </span><span class="mf">14.8</span><span class="p">,</span><span class="w"> </span><span class="mf">6.3</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mf">1.1</span><span class="p">];</span>
+</span><span id="__span-27-6"><a id="__codelineno-27-6" name="__codelineno-27-6" href="#__codelineno-27-6"></a>
+</span><span id="__span-27-7"><a id="__codelineno-27-7" name="__codelineno-27-7" href="#__codelineno-27-7"></a><span class="nb">figure</span><span class="p">(</span><span class="s">&#39;Name&#39;</span><span class="p">,</span><span class="s">&#39;城市温度分析&#39;</span><span class="p">,</span><span class="s">&#39;Color&#39;</span><span class="p">,</span><span class="s">&#39;white&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 创建一个图形窗口，并设置名称和背景色</span>
+</span><span id="__span-27-8"><a id="__codelineno-27-8" name="__codelineno-27-8" href="#__codelineno-27-8"></a><span class="nb">plot</span><span class="p">(</span><span class="n">months</span><span class="p">,</span><span class="w"> </span><span class="n">temp</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;LineWidth&#39;</span><span class="p">,</span><span class="w"> </span><span class="mf">1.5</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;Color&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mf">0.2</span><span class="w"> </span><span class="mf">0.4</span><span class="w"> </span><span class="mf">0.8</span><span class="p">]);</span><span class="w"> </span><span class="c">% 绘制曲线，设置线宽和颜色 ([R G B] 颜色值)</span>
+</span><span id="__span-27-9"><a id="__codelineno-27-9" name="__codelineno-27-9" href="#__codelineno-27-9"></a><span class="nb">xlabel</span><span class="p">(</span><span class="s">&#39;月份&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;FontSize&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;FontName&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;Microsoft YaHei&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置 X 轴标签和字体</span>
+</span><span id="__span-27-10"><a id="__codelineno-27-10" name="__codelineno-27-10" href="#__codelineno-27-10"></a><span class="nb">ylabel</span><span class="p">(</span><span class="s">&#39;温度(℃)&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;FontSize&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">11</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置 Y 轴标签</span>
+</span><span id="__span-27-11"><a id="__codelineno-27-11" name="__codelineno-27-11" href="#__codelineno-27-11"></a><span class="nb">title</span><span class="p">(</span><span class="s">&#39;北京市2023年月平均温度变化&#39;</span><span class="p">,</span><span class="s">&#39;FontWeight&#39;</span><span class="p">,</span><span class="s">&#39;bold&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置图标题和字体加粗</span>
+</span><span id="__span-27-12"><a id="__codelineno-27-12" name="__codelineno-27-12" href="#__codelineno-27-12"></a><span class="nb">grid</span><span class="w"> </span><span class="n">on</span><span class="p">;</span><span class="w"> </span><span class="c">% 显示网格线 (默认是虚线)</span>
+</span><span id="__span-27-13"><a id="__codelineno-27-13" name="__codelineno-27-13" href="#__codelineno-27-13"></a><span class="c">% set(gca, &#39;GridLineStyle&#39;, &#39;--&#39;); % 如果想自定义网格线样式，可以使用 set 函数，gca 表示当前坐标系</span>
+</span><span id="__span-27-14"><a id="__codelineno-27-14" name="__codelineno-27-14" href="#__codelineno-27-14"></a><span class="nb">box</span><span class="w"> </span><span class="n">on</span><span class="p">;</span><span class="w"> </span><span class="c">% 显示图框</span>
+</span></code></pre></div></p>
+<p><strong>案例 2：模拟某种环境下的温度日变化 (理解周期性变化)</strong></p>
+<p>这个案例不是直接使用实测数据，而是用一个简化的数学模型模拟一个具有周期性特征的环境变量（如地表温度、水体溶解氧等）的日变化，有助于我们理解如何用函数表示环境过程以便进行可视化。</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="c">% 模拟一个简化的环境参数日变化曲线</span>
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="c">% 例如，模拟一个特定地点的浅层土壤温度随日照时间的变化</span>
+</span><span id="__span-28-3"><a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a><span class="n">diurnal_hours</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">:</span><span class="mf">0.5</span><span class="p">:</span><span class="mi">24</span><span class="p">;</span><span class="w"> </span><span class="c">% 一天 24 小时，每隔 0.5 小时采样，这是一个数值向量</span>
+</span><span id="__span-28-4"><a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a>
+</span><span id="__span-28-5"><a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a><span class="c">% 简化的温度模型：基础温度 + 振幅 * sin(与周期相关的项)</span>
+</span><span id="__span-28-6"><a id="__codelineno-28-6" name="__codelineno-28-6" href="#__codelineno-28-6"></a><span class="c">% 这里的参数 (-5, 15, 2*pi/24, -pi/2) 是假设的，用来模拟一个每天一个周期的温度变化</span>
+</span><span id="__span-28-7"><a id="__codelineno-28-7" name="__codelineno-28-7" href="#__codelineno-28-7"></a><span class="n">base_temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="o">-</span><span class="mi">5</span><span class="p">;</span><span class="w"> </span><span class="c">% 基础温度</span>
+</span><span id="__span-28-8"><a id="__codelineno-28-8" name="__codelineno-28-8" href="#__codelineno-28-8"></a><span class="n">amplitude</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">15</span><span class="p">;</span><span class="w"> </span><span class="c">% 振幅</span>
+</span><span id="__span-28-9"><a id="__codelineno-28-9" name="__codelineno-28-9" href="#__codelineno-28-9"></a><span class="c">% 2*pi/24 表示每天一个周期 (24小时对应 2*pi 弧度)</span>
+</span><span id="__span-28-10"><a id="__codelineno-28-10" name="__codelineno-28-10" href="#__codelineno-28-10"></a><span class="c">% -pi/2 表示起始时间 (0 时) 温度处于周期波动的较低点（如最低温出现在日出前）</span>
+</span><span id="__span-28-11"><a id="__codelineno-28-11" name="__codelineno-28-11" href="#__codelineno-28-11"></a><span class="n">simulated_temp</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">base_temp</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">amplitude</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nb">sin</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="nb">pi</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">diurnal_hours</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">24</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nb">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">);</span>
+</span><span id="__span-28-12"><a id="__codelineno-28-12" name="__codelineno-28-12" href="#__codelineno-28-12"></a>
+</span><span id="__span-28-13"><a id="__codelineno-28-13" name="__codelineno-28-13" href="#__codelineno-28-13"></a><span class="nb">figure</span><span class="p">;</span><span class="w"> </span><span class="c">% 创建一个新的图形窗口</span>
+</span><span id="__span-28-14"><a id="__codelineno-28-14" name="__codelineno-28-14" href="#__codelineno-28-14"></a><span class="nb">plot</span><span class="p">(</span><span class="n">diurnal_hours</span><span class="p">,</span><span class="w"> </span><span class="n">simulated_temp</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;r-&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;DisplayName&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;模拟温度&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 红色实线绘制，并给曲线命名用于图例</span>
+</span><span id="__span-28-15"><a id="__codelineno-28-15" name="__codelineno-28-15" href="#__codelineno-28-15"></a><span class="nb">xlim</span><span class="p">([</span><span class="mi">0</span><span class="w"> </span><span class="mi">24</span><span class="p">]);</span><span class="w"> </span><span class="c">% 设置 X 轴显示范围为 0 到 24</span>
+</span><span id="__span-28-16"><a id="__codelineno-28-16" name="__codelineno-28-16" href="#__codelineno-28-16"></a><span class="nb">xticks</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">:</span><span class="mi">24</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置 X 轴刻度间隔为 4 小时</span>
+</span><span id="__span-28-17"><a id="__codelineno-28-17" name="__codelineno-28-17" href="#__codelineno-28-17"></a><span class="nb">xlabel</span><span class="p">(</span><span class="s">&#39;时间 (小时)&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置 X 轴标签</span>
+</span><span id="__span-28-18"><a id="__codelineno-28-18" name="__codelineno-28-18" href="#__codelineno-28-18"></a><span class="nb">ylabel</span><span class="p">(</span><span class="s">&#39;模拟温度(℃)&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置 Y 轴标签</span>
+</span><span id="__span-28-19"><a id="__codelineno-28-19" name="__codelineno-28-19" href="#__codelineno-28-19"></a><span class="nb">title</span><span class="p">(</span><span class="s">&#39;环境参数模拟日变化&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 设置图标题</span>
+</span><span id="__span-28-20"><a id="__codelineno-28-20" name="__codelineno-28-20" href="#__codelineno-28-20"></a><span class="nb">legend</span><span class="p">(</span><span class="s">&#39;Location&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;southwest&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 添加图例，并设置位置在左下方</span>
+</span><span id="__span-28-21"><a id="__codelineno-28-21" name="__codelineno-28-21" href="#__codelineno-28-21"></a>
+</span><span id="__span-28-22"><a id="__codelineno-28-22" name="__codelineno-28-22" href="#__codelineno-28-22"></a><span class="c">% 可以添加文本注释到图上 (例如说明模型或数据来源)</span>
+</span><span id="__span-28-23"><a id="__codelineno-28-23" name="__codelineno-28-23" href="#__codelineno-28-23"></a><span class="c">% text(x坐标, y坐标, &#39;文本内容&#39;, 其他属性...)</span>
+</span><span id="__span-28-24"><a id="__codelineno-28-24" name="__codelineno-28-24" href="#__codelineno-28-24"></a><span class="nb">text</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">15</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="s">&#39;模拟模型:&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;T = -5 + 15*sin(2\pi*t/24 - \pi/2)&#39;</span><span class="p">},</span><span class="k">...</span>
+</span><span id="__span-28-25"><a id="__codelineno-28-25" name="__codelineno-28-25" href="#__codelineno-28-25"></a><span class="w">     </span><span class="s">&#39;EdgeColor&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;k&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;BackgroundColor&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;y&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% 在 (18, -15) 位置添加文本框</span>
+</span></code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">绘制多条曲线与图例</p>
+<p>在同一个 <code>plot</code> 命令中，可以成对地输入 <code>x1, y1, [样式1], x2, y2, [样式2], ...</code> 来绘制多条曲线。使用 <code>legend</code> 函数可以为这些曲线添加图例来区分。</p>
+</div>
+<h3 id="163">1.6.3 三维绘图</h3>
+<p>用于可视化三维数据</p>
+<div class="language-text highlight"><pre><span></span><code>```matlab
+
+% 准备三维网格数据
+[X, Y] = meshgrid(-2:0.2:2, -2:0.2:2); % 创建一个二维网格，X 和 Y 是同维度的矩阵
+
+% 计算 Z 值（例如一个二维函数）
+Z = X .* exp(-X.^2 - Y.^2); % 注意使用元素级运算符 .* 和 .^
+
+% 绘制三维曲面图
+figure;
+surf(X, Y, Z); % 绘制彩色曲面图
+title(&#39;三维示例曲面&#39;);
+xlabel(&#39;X轴&#39;);
+ylabel(&#39;Y轴&#39;);
+zlabel(&#39;Z轴&#39;);
+colorbar; % 显示颜色条
+shading interp; % 使颜色平滑过渡
+view(3); % 设置默认三维视角，也可以用 view(az, el) 自定义
+
+% 其他常见三维图
+% mesh(X, Y, Z); % 绘制网格曲面图
+% contour(X, Y, Z); % 绘制等高线图 (二维)
+% plot3(x, y, z); % 绘制三维线条
+% scatter3(x, y, z, size, color); % 绘制三维散点图
+```
+</code></pre></div>
+<h3 id="165">1.6.5保存图形</h3>
+<p>用<code>saveas</code>或<code>print</code>命令将图形保存为多种格式（如<code>pdf</code>, <code>jpg</code>, <code>png</code>等）</p>
+<div class="language-text highlight"><pre><span></span><code>```matlab
+% 假设当前窗口有一个图形
+saveas(gcf, &#39;my_plot.png&#39;); % 将当前图形保存为 PNG 文件
+% print(&#39;my_plot.eps&#39;, &#39;-depsc&#39;); % 保存为 EPS 格式（矢量图）
+```
+</code></pre></div>
+<h2 id="17-matlab">1.7 扩展功能：MATLAB 工具箱</h2>
+<h3 id="171-matlab">1.7.1 什么是 MATLAB 工具箱？</h3>
+<p>MATLAB 工具箱是一组预先编写好的函数、脚本和工具，用于扩展 MATLAB 的功能。这些工具箱通常包含了特定领域的函数，如信号处理、图像处理、统计分析、机器学习等。</p>
+<h3 id="172">1.7.2 环境工程相关的常用工具箱介绍</h3>
+<p>为了进行实践环节中环境工程等相关的计算和数据分析，除了 MATLAB 基础功能外，还需要安装一些额外的工具箱（Toolbox）。这些工具箱提供了针对特定领域优化过的函数和工具。</p>
+<p>以下是一些对环境工程数据分析<strong>特别有用</strong>的常见工具箱：</p>
+<ul>
+<li><strong>Mapping Toolbox</strong>：用于地理空间数据的可视化和分析。在环境工程中，用于处理带有经纬度坐标的监测站数据、绘制污染分布图、分析遥感影像等</li>
+<li><strong>Curve Fitting Toolbox</strong>：用于数据拟合、回归分析和模型建立。在环境工程中，常用于拟合实验数据（如吸附等温线）、建立污染物随时间或空间变化的模型等</li>
+<li><strong>Statistics and Machine Learning Toolbox</strong> : 经典通用的工具箱之一，提供了大量的统计分析、概率模型和机器学习方法。在环境工程中，常用于数据统计描述、假设检验、异常值检测、多元统计分析（如主成分分析 PCA）、建立预测模型（如污染浓度预测）等</li>
+<li>Partial Differential Equation Toolbox (PDE求解)：如果需要进行更深入的物理过程模拟（如地下水流、污染物在土壤或水体中的迁移扩散、大气污染物输运等），这个工具箱提供了求解偏微分方程的工具，属于进阶内容</li>
+<li><strong>Optimization Toolbox</strong>：用于优化问题的求解，特别是在环境工程中，用于优化污染物浓度分布、污染物浓度控制等</li>
+</ul>
+<h3 id="173">1.7.3 工具箱的安装与管理</h3>
+<ol>
+<li>首先确保你已经安装了 MATLAB 基础版本。在命令行窗口输入<code>ver</code>并回车执行，查看当前 MATLAB 版本和已安装的工具箱列表；</li>
+<li>确保拥有需要安装工具箱的有效许可证</li>
+<li>打开 MATLAB，在“<strong>主页 (HOME)</strong>”标签页中找到并点击<strong>附加功能</strong>（或“Add-Ons”）。点击<code>管理附加功能</code>，在弹出的<code>附加功能管理器</code>窗口中，可以查看已安装的工具箱，搜索并找到需要的工具箱（例如 "Mapping Toolbox"）</li>
+<li>点击工具箱页面上的“<strong>Add</strong>”或“<strong>安装</strong>”按钮，根据提示完成安装过程。安装完成后，工具箱会被自动添加到 MATLAB 的环境中<del class="critic">比C语言环境好配置多了</del></li>
+<li>安装完成后，再次在命令行窗口输入<code>ver</code>，检查新安装的工具箱是否已经出现在列表中，以确认安装成功</li>
+</ol>
+<h2 id="_1">总结</h2>
+<p>恭喜你<del class="critic">凭借坚定的毅力赤完了石</del>完成了第一章的学习！</p>
+<p>本章主要涵盖了 MATLAB 的基础概念和操作，包括：</p>
+<ul>
+<li>MATLAB 的开发环境布局和基本操作规范（如获取帮助、注释、清理界面等）</li>
+<li>变量的命名规则以及 MATLAB 丰富的数据类型（数值、字符、字符串、逻辑型、元胞数组、结构体），特别理解了数组（矩阵）作为 MATLAB 基本数据结构的概念，以及为何字符和字符串也被视为数组</li>
+<li>如何构造数组和矩阵，并进行基本的矩阵运算和元素级运算，理解了它们之间的区别，尤其是向量化操作的思想</li>
+<li>使用 1-基索引、线性索引、冒号运算符和逻辑索引等强大的方法来访问和操作数组中的数据</li>
+<li>MATLAB 中基本的程序控制结构，如条件语句（if/else）和循环（for/while），并理解了在数组操作中优先考虑向量化的原则</li>
+<li>如何进行基础的二维和三维数据可视化，以及一些常用的绘图设置</li>
+<li>初步了解了环境工程领域可能用到的 MATLAB 工具箱概念及其安装方法</li>
+<li>通过环境工程相关的案例，初步体验了如何将这些基础知识应用于数据导入、清洗和可视化</li>
+</ul>
+<p>🎉🎉🎉掌握这些基础知识，你已经具备了使用 MATLAB 进行简单工程计算和数据处理的能力。理论的学习只是第一步，最重要的还是动手实践。请务必花时间在 MATLAB 环境中亲自运行本章中的代码示例，尝试修改参数，编写自己的小脚本，通过不断的尝试和调试来加深理解。</p>
+<p>在后续章节中，笔者会用拙劣的文笔<del class="critic">我是个语文老师</del>进行一些情景引入，尽可能多的结合实际案例，<strong>就算忘记了很多理论知识也没关系，因为你至少要会用</strong></p>
 
 
 
@@ -904,6 +1994,40 @@ end
   
 </div>
       
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/del-Moonlight" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.instagram.com/del.smile/" target="_blank" rel="noopener" title="www.instagram.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141m0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7m146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8m76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:<wyhgotit@gmail.com>" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -916,12 +2040,10 @@ end
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.select", "content.code.annotate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
       
     
   </body>
