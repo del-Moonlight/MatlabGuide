@@ -1,6 +1,14 @@
 site_name: Some Matlab Notes
 theme:
-  name: 'material'   # Material 主题似乎勉强能看
+  name: 'material'   
+
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate 
+
+  external_links:
+    target: _blank
 
   nav:
   - Home: index.md
@@ -8,5 +16,49 @@ theme:
   - Compendium: compendium.md
   - Chapter 1: Chapter 1.md
 
-extra_javascript:
-  - 'https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js'
+
+  palette: 
+
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/del-Moonlight
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/del.smile/
+
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<wyhgotit@gmail.com>
+
+repo_url: https://github.com/del-Moonlight/MatlabGuide
+repo_name: del-Moonlight/MatlabGuide
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
